@@ -5,7 +5,7 @@
 @section('website-main-section')
 
     <section class="section hero has-bg-image" aria-label="home"
-        style="background-image: url('./assets/images/Animated Shape.svg')">
+        style="background-image: url('{{ asset('website/assets/images/Animated Shape.svg') }}')">
         <div class="container">
 
             <div class="hero-content">
@@ -42,7 +42,7 @@
                         <li class="slider-item">
 
                             <figure class="img-holder" style="--width: 575; --height: 550;">
-                                <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt=""
+                                <img src="{{ asset('website/assets/images/hero-slide-1.jpg') }}" width="575" height="550" alt=""
                                     class="img-cover">
                             </figure>
 
@@ -52,7 +52,7 @@
 
                             <div class="hero-card">
                                 <figure class="img-holder" style="--width: 575; --height: 550;">
-                                    <img src="./assets/images/hero-slide-2.jpg" width="575" height="550"
+                                    <img src="{{ asset('website/assets/images/hero-slide-2.jpg') }}" width="575" height="550"
                                         alt="hero banner" class="img-cover">
                                 </figure>
 
@@ -66,7 +66,7 @@
                         <li class="slider-item">
 
                             <figure class="img-holder" style="--width: 575; --height: 550;">
-                                <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt=""
+                                <img src="{{ asset('website/assets/images/hero-slide-3.jpg') }}" width="575" height="550" alt=""
                                     class="img-cover">
                             </figure>
 
@@ -88,136 +88,16 @@
         </div>
     </section>
 
-
-
-
-
     <!--
-    - #SERVICE
-    -->
-
-    <!-- <section class="section service" aria-labelledby="service-label">
-    <div class="container">
-
-      <p class="section-subtitle" id="service-label">What We Do?</p>
-
-      <h2 class="h2 section-title">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      </h2>
-
-      <ul class="grid-list">
-
-        <li>
-          <div class="service-card">
-
-            <div class="card-icon">
-              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
-            </div>
-
-            <h3 class="h4 card-title">24/7 Support</h3>
-
-            <p class="card-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            </p>
-
-            <a href="#" class="btn-text">
-              <span class="span">Learn More</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-
-          </div>
-        </li>
-
-        <li>
-          <div class="service-card">
-
-            <div class="card-icon">
-              <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
-            </div>
-
-            <h3 class="h4 card-title">Secure Payments</h3>
-
-            <p class="card-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            </p>
-
-            <a href="#" class="btn-text">
-              <span class="span">Learn More</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-
-          </div>
-        </li>
-
-        <li>
-          <div class="service-card">
-
-            <div class="card-icon">
-              <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
-            </div>
-
-            <h3 class="h4 card-title">Daily Updates</h3>
-
-            <p class="card-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            </p>
-
-            <a href="#" class="btn-text">
-              <span class="span">Learn More</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-
-          </div>
-        </li>
-
-        <li>
-          <div class="service-card">
-
-            <div class="card-icon">
-              <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
-            </div>
-
-            <h3 class="h4 card-title">Market Research</h3>
-
-            <p class="card-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            </p>
-
-            <a href="#" class="btn-text">
-              <span class="span">Learn More</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-
-          </div>
-        </li>
-
-      </ul>
-
-    </div>
-    </section> -->
-
-
-
-
-
-    <!--
-    - #ABOUT
-    -->
+        - #ABOUT
+        -->
 
     <section class="about" style="margin-top: 3rem;" aria-labelledby="about-label">
         <div class="container">
 
             <figure class="about-banner">
-                <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy"
-                    alt="about banner" class="w-100">
+                <img src="{{ asset('website/assets/images/about-banner.png') }}" width="800" height="580" loading="lazy" alt="about banner"
+                    class="w-100">
             </figure>
 
             <div class="about-content">
@@ -245,70 +125,6 @@
                     build a strong and trusted relationship with them.
                 </h>
 
-
-
-
-                <!-- <ul>
-
-          <li class="about-item">
-            <div class="accordion-card expanded" data-accordion>
-
-              <h3 class="card-title">
-                <button class="accordion-btn" data-accordion-btn>
-                  <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                  <spna class="span h5">Lorem Ipsum 1</spna>
-                </button>
-              </h3>
-
-              <p class="accordion-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              </p>
-
-            </div>
-          </li>
-
-          <li class="about-item">
-            <div class="accordion-card" data-accordion>
-
-              <h3 class="card-title">
-                <button class="accordion-btn" data-accordion-btn>
-                  <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                  <spna class="span h5">Lorem Ipsum 2</spna>
-                </button>
-              </h3>
-
-              <p class="accordion-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              </p>
-
-            </div>
-          </li>
-
-          <li class="about-item">
-            <div class="accordion-card" data-accordion>
-
-              <h3 class="card-title">
-                <button class="accordion-btn" data-accordion-btn>
-                  <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                  <spna class="span h5">Lorem Ipsum 3</spna>
-                </button>
-              </h3>
-
-              <p class="accordion-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              </p>
-
-            </div>
-          </li>
-
-        </ul> -->
-
             </div>
 
         </div>
@@ -319,14 +135,14 @@
 
 
     <!--
-    - #FEATURE
-    -->
+        - #FEATURE
+        -->
 
     <section class="section feature" aria-labelledby="feature-label">
         <div class="container">
 
             <figure class="feature-banner">
-                <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy"
+                <img src="{{ asset('website/assets/images/feature-banner.png') }}" width="800" height="531" loading="lazy"
                     alt="feature banner" class="w-100">
             </figure>
 

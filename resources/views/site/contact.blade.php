@@ -3,32 +3,24 @@
 @section('website-page-title', 'Contact')
 
 @section('website-main-section')
-
     <section class="section hero has-bg-image" aria-label="home"
-        style="background-image: url('./assets/images/Animated Shape.svg')">
+        style="background-image: url('{{ asset('website/assets/images/Animated Shape.svg') }}')">
         <div class="container">
 
             <div class="hero-content">
 
-                <h1 class="h1 hero-title">About us</h1>
+                <h1 class="h1 hero-title">Get In Touch</h1>
 
                 <p class="hero-text">
-                    Evovx consultancy and business solutions W.L.L. It is a company that was newly
-                    founded in Qatar Since 2024. Provides a wide range of services including Commercial
-                    mediation, Management Consulting, Commercial brokerage and Documents Clearing and
-                    more other services.
-                </p>
-                <p class="hero-text">
-                    The professional team has a decade of experience, EVOVX aims to invest
-                    its team professionalism towards your set up new business it will
-                    be located in Doha, Qatar.
+                    Our team will be pleased to respond to inquiries. Kindly contact us via
+                    phone or email.
                 </p>
 
                 <div class="btn-wrapper">
 
-                    <a href="#" class="btn btn-primary">Explore Now</a>
+                    <a href="index.html" class="btn btn-primary">Explore Now</a>
 
-                    <a href="#" class="btn btn-outline">Contact Us</a>
+                    <a href="contact.html" class="btn btn-outline">Contact Us</a>
 
                 </div>
 
@@ -42,7 +34,7 @@
                         <li class="slider-item">
 
                             <figure class="img-holder" style="--width: 575; --height: 550;">
-                                <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt=""
+                                <img src="{{ asset('website/assets/images/hero-slide-1.jpg') }}" width="575" height="550" alt=""
                                     class="img-cover">
                             </figure>
 
@@ -52,7 +44,7 @@
 
                             <div class="hero-card">
                                 <figure class="img-holder" style="--width: 575; --height: 550;">
-                                    <img src="./assets/images/hero-slide-2.jpg" width="575" height="550"
+                                    <img src="{{ asset('website/assets/images/hero-slide-2.jpg') }}" width="575" height="550"
                                         alt="hero banner" class="img-cover">
                                 </figure>
 
@@ -66,7 +58,7 @@
                         <li class="slider-item">
 
                             <figure class="img-holder" style="--width: 575; --height: 550;">
-                                <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt=""
+                                <img src="{{ asset('website/assets/images/hero-slide-3.jpg') }}" width="575" height="550" alt=""
                                     class="img-cover">
                             </figure>
 
@@ -90,349 +82,154 @@
 
 
 
-
-
-    <!--
-    - #SERVICE
-    -->
-
-    <!-- <section class="section service" aria-labelledby="service-label">
-    <div class="container">
-
-      <p class="section-subtitle" id="service-label">What We Do?</p>
-
-      <h2 class="h2 section-title">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      </h2>
-
-      <ul class="grid-list">
-
-        <li>
-          <div class="service-card">
-
-            <div class="card-icon">
-              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
-            </div>
-
-            <h3 class="h4 card-title">24/7 Support</h3>
-
-            <p class="card-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            </p>
-
-            <a href="#" class="btn-text">
-              <span class="span">Learn More</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-
-          </div>
-        </li>
-
-        <li>
-          <div class="service-card">
-
-            <div class="card-icon">
-              <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
-            </div>
-
-            <h3 class="h4 card-title">Secure Payments</h3>
-
-            <p class="card-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            </p>
-
-            <a href="#" class="btn-text">
-              <span class="span">Learn More</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-
-          </div>
-        </li>
-
-        <li>
-          <div class="service-card">
-
-            <div class="card-icon">
-              <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
-            </div>
-
-            <h3 class="h4 card-title">Daily Updates</h3>
-
-            <p class="card-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            </p>
-
-            <a href="#" class="btn-text">
-              <span class="span">Learn More</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-
-          </div>
-        </li>
-
-        <li>
-          <div class="service-card">
-
-            <div class="card-icon">
-              <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
-            </div>
-
-            <h3 class="h4 card-title">Market Research</h3>
-
-            <p class="card-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            </p>
-
-            <a href="#" class="btn-text">
-              <span class="span">Learn More</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-
-          </div>
-        </li>
-
-      </ul>
-
-    </div>
-    </section> -->
-
-
-
-
-
-    <!--
-    - #ABOUT
-    -->
-
-    <section class="about" style="margin-top: 3rem;" aria-labelledby="about-label">
+    <section class="section service" staria-labelledby="service-label">
         <div class="container">
 
-            <figure class="about-banner">
-                <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy"
-                    alt="about banner" class="w-100">
-            </figure>
 
-            <div class="about-content">
-
-                <p class="section-subtitle" id="about-label">Our Vision</p>
-
-                <h class="h5 section-title">
-                    To serve our clients better and to be the first-choice service provider
-                    for our clients. Supported by strategic alliance and certified
-                    experience to deliver success for our clients.
-                </h>
-
-                <p class="section-subtitle" style="margin-top: 3rem;" id="about-label">Our Mission</p>
-                <h class="h5 section-title">
-                    To remain leading total business and services solutions provider company
-                    in Qatar who guarantees the satisfaction of its clients through the
-                    provision of total products, Services and management, that benefits
-                    the clients personally and professionally.
-                </h>
-
-                <p class="section-subtitle" style="margin-top: 3rem;" id="about-label">Value</p>
-                <h class="h5 section-title">
-                    We provide quality assurance to execute integrated and
-                    innovated solutions. To work with ethics, care about the clients and
-                    build a strong and trusted relationship with them.
-                </h>
+            <ul class="grid-list">
 
 
+                <li>
+                    <div class="service-card">
 
+                        <div class="card-icon">
+                            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                        </div>
 
-                <!-- <ul>
+                        <h3 class="h4 card-title">Address</h3>
 
-          <li class="about-item">
-            <div class="accordion-card expanded" data-accordion>
+                        <p class="card-text">
+                            Doha, Qatar
+                        </p>
 
-              <h3 class="card-title">
-                <button class="accordion-btn" data-accordion-btn>
-                  <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                    </div>
+                </li>
 
-                  <spna class="span h5">Lorem Ipsum 1</spna>
-                </button>
-              </h3>
+                <li>
+                    <div class="service-card">
 
-              <p class="accordion-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              </p>
+                        <div class="card-icon">
+                            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                        </div>
 
-            </div>
-          </li>
+                        <h3 class="h4 card-title">Contact Number</h3>
 
-          <li class="about-item">
-            <div class="accordion-card" data-accordion>
+                        <p class="card-text">
+                            986543324567
 
-              <h3 class="card-title">
-                <button class="accordion-btn" data-accordion-btn>
-                  <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                        </p>
 
-                  <spna class="span h5">Lorem Ipsum 2</spna>
-                </button>
-              </h3>
+                    </div>
+                </li>
 
-              <p class="accordion-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              </p>
+                <li>
+                    <div class="service-card">
 
-            </div>
-          </li>
+                        <div class="card-icon">
+                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                        </div>
 
-          <li class="about-item">
-            <div class="accordion-card" data-accordion>
+                        <h3 class="h4 card-title">Email</h3>
 
-              <h3 class="card-title">
-                <button class="accordion-btn" data-accordion-btn>
-                  <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                        <p class="card-text">
+                            evovx@gmail.com
+                        </p>
 
-                  <spna class="span h5">Lorem Ipsum 3</spna>
-                </button>
-              </h3>
-
-              <p class="accordion-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              </p>
-
-            </div>
-          </li>
-
-        </ul> -->
-
-            </div>
-
+                    </div>
+                </li>
+            </ul>
         </div>
     </section>
 
 
-
-
-
     <!--
-    - #FEATURE
+    - #STATS
     -->
 
-    <section class="section feature" aria-labelledby="feature-label">
+    <section class="stats" aria-label="our stats">
         <div class="container">
 
-            <figure class="feature-banner">
-                <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy"
-                    alt="feature banner" class="w-100">
-            </figure>
+            <li class="stats-card has-bg-image" style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">
 
-            <div class="feature-content">
 
-                <!-- <p class="section-subtitle" id="feautre-label">Our Solutions</p> -->
+                <h1 class="h1 hero-title">Need Help? Contact us</h1>
 
-                <h2 class="h2 section-title">
-                    Crafted for Business Consulting
-                </h2>
+                <p class="hero-text">
+                    Our support team will get back to you ASAP via email.
 
-                <p class="section-text">
-                    Whether you're a seasoned consultant or just starting in the field, our
-                    platform provides the perfect tools and features to support your
-                    business consulting needs.
                 </p>
 
-                <ul class="feature-list">
+                <form>
+                    <div class="footer-list">
 
-                    <li>
-                        <div class="feature-card">
+                        <p class="h4 footer-list-title">Name</p>
 
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
+                        <form action="" class="input-wrapper">
+                            <input type="name" name="name" placeholder="Enter your name" required class="input-field">
+                        </form>
 
-                            <span class="span">
-                                Management Consulting
-                            </span>
+                    </div>
+                    <div class="footer-list">
 
-                        </div>
-                    </li>
+                        <p class="h4 footer-list-title">Phone</p>
 
-                    <li>
-                        <div class="feature-card">
+                        <form action="" class="input-wrapper">
+                            <input type="integer" name="name" placeholder="Enter your phone number" required
+                                class="input-field">
+                        </form>
 
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
+                    </div>
+                    <div class="footer-list">
 
-                            <span class="span">
-                                Business Mediation
-                            </span>
+                        <p class="h4 footer-list-title">Email</p>
 
-                        </div>
-                    </li>
+                        <form action="" class="input-wrapper">
+                            <input type="name" name="name" placeholder="Enter your email" required
+                                class="input-field">
+                        </form>
 
-                    <li>
-                        <div class="feature-card">
+                    </div>
+                    <div class="footer-list">
 
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
+                        <p class="h4 footer-list-title">Business</p>
 
-                            <span class="span">
-                                Tailored Solution
-                            </span>
+                        <form action="" class="input-wrapper">
+                            <input type="name" name="name" placeholder="Enter your business" required
+                                class="input-field">
+                        </form>
 
-                        </div>
-                    </li>
+                    </div>
+                    <div class="footer-list">
 
-                    <li>
-                        <div class="feature-card">
+                        <p class="h4 footer-list-title">Message</p>
 
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
-
-                            <span class="span">
-                                Client Centric Approach
-                            </span>
-
-                        </div>
-                    </li>
-                    <li>
-                        <div class="feature-card">
-
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
-
-                            <span class="span">
-                                Collaboration
-                            </span>
-
-                        </div>
-                    </li>
-                    <li>
-                        <div class="feature-card">
-
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
-
-                            <span class="span">
-                                Client Satisfaction
-                            </span>
-
-                        </div>
-                    </li>
-
-                </ul>
-
-            </div>
+                        <form action="" class="input-wrapper">
+                            <input type="name" name="name" placeholder="Enter your message" required
+                                class="input-field">
+                        </form>
+                    </div>
+                    <a href="contact.html" class="btn btn-outline">Submit</a>
+        </div>
 
         </div>
+
+        </form>
+        </li>
+        </li>
+        </div>
+    </section>
+
+    <!-- Google Map -->
+
+    <section class="about" style="margin-top: 3rem;" aria-labelledby="about-label">
+        <p>
+            <center>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230886.6290772593!2d51.34718383487477!3d25.283917555996037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x44d9319f78cfd4b1!2sDoha%2C%20Qatar!5e0!3m2!1sen!2sae!4v1720788627799!5m2!1sen!2sae"
+                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </center>
+        </p>
     </section>
 
 @endsection

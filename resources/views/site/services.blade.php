@@ -5,24 +5,24 @@
 @section('website-main-section')
 
     <section class="section hero has-bg-image" aria-label="home"
-        style="background-image: url('./assets/images/Animated Shape.svg')">
+        style="background-image: url('{{ asset('website/assets/images/Animated Shape.svg') }}')">
         <div class="container">
 
             <div class="hero-content">
 
-                <h1 class="h1 hero-title">About us</h1>
+                <h1 class="h1 hero-title">Our Services</h1>
 
                 <p class="hero-text">
-                    Evovx consultancy and business solutions W.L.L. It is a company that was newly
-                    founded in Qatar Since 2024. Provides a wide range of services including Commercial
-                    mediation, Management Consulting, Commercial brokerage and Documents Clearing and
-                    more other services.
+                    We provide comprehensive business and consultancy services designed to
+                    help your organization thrive in today's competitive landscape. Our
+                    team of seasoned professionals brings a wealth of experience and
+                    expertise to each project, ensuring tailored solutions that meet your
+                    unique needs.
                 </p>
                 <p class="hero-text">
-                    The professional team has a decade of experience, EVOVX aims to invest
-                    its team professionalism towards your set up new business it will
-                    be located in Doha, Qatar.
+                    Explore our range of services below.
                 </p>
+
 
                 <div class="btn-wrapper">
 
@@ -42,7 +42,7 @@
                         <li class="slider-item">
 
                             <figure class="img-holder" style="--width: 575; --height: 550;">
-                                <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt=""
+                                <img src="{{ asset('website/assets/images/hero-slide-1.jpg') }}" width="575" height="550" alt=""
                                     class="img-cover">
                             </figure>
 
@@ -52,7 +52,7 @@
 
                             <div class="hero-card">
                                 <figure class="img-holder" style="--width: 575; --height: 550;">
-                                    <img src="./assets/images/hero-slide-2.jpg" width="575" height="550"
+                                    <img src="{{ asset('website/assets/images/hero-slide-2.jpg') }}" width="575" height="550"
                                         alt="hero banner" class="img-cover">
                                 </figure>
 
@@ -66,7 +66,7 @@
                         <li class="slider-item">
 
                             <figure class="img-holder" style="--width: 575; --height: 550;">
-                                <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt=""
+                                <img src="{{ asset('website/assets/images/hero-slide-3.jpg') }}" width="575" height="550" alt=""
                                     class="img-cover">
                             </figure>
 
@@ -88,349 +88,389 @@
         </div>
     </section>
 
-
-
-
-
     <!--
-    - #SERVICE
-    -->
+            - #SERVICE
+            -->
 
-    <!-- <section class="section service" aria-labelledby="service-label">
-    <div class="container">
-
-      <p class="section-subtitle" id="service-label">What We Do?</p>
-
-      <h2 class="h2 section-title">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      </h2>
-
-      <ul class="grid-list">
-
-        <li>
-          <div class="service-card">
-
-            <div class="card-icon">
-              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
-            </div>
-
-            <h3 class="h4 card-title">24/7 Support</h3>
-
-            <p class="card-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            </p>
-
-            <a href="#" class="btn-text">
-              <span class="span">Learn More</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-
-          </div>
-        </li>
-
-        <li>
-          <div class="service-card">
-
-            <div class="card-icon">
-              <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
-            </div>
-
-            <h3 class="h4 card-title">Secure Payments</h3>
-
-            <p class="card-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            </p>
-
-            <a href="#" class="btn-text">
-              <span class="span">Learn More</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-
-          </div>
-        </li>
-
-        <li>
-          <div class="service-card">
-
-            <div class="card-icon">
-              <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
-            </div>
-
-            <h3 class="h4 card-title">Daily Updates</h3>
-
-            <p class="card-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            </p>
-
-            <a href="#" class="btn-text">
-              <span class="span">Learn More</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-
-          </div>
-        </li>
-
-        <li>
-          <div class="service-card">
-
-            <div class="card-icon">
-              <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
-            </div>
-
-            <h3 class="h4 card-title">Market Research</h3>
-
-            <p class="card-text">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            </p>
-
-            <a href="#" class="btn-text">
-              <span class="span">Learn More</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-
-          </div>
-        </li>
-
-      </ul>
-
-    </div>
-    </section> -->
-
-
-
-
-
-    <!--
-    - #ABOUT
-    -->
-
-    <section class="about" style="margin-top: 3rem;" aria-labelledby="about-label">
+    <section class="section service" aria-labelledby="service-label">
         <div class="container">
 
-            <figure class="about-banner">
-                <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy"
-                    alt="about banner" class="w-100">
-            </figure>
+            <p class="section-subtitle" id="service-label">What We Do?</p>
 
-            <div class="about-content">
-
-                <p class="section-subtitle" id="about-label">Our Vision</p>
-
-                <h class="h5 section-title">
-                    To serve our clients better and to be the first-choice service provider
-                    for our clients. Supported by strategic alliance and certified
-                    experience to deliver success for our clients.
-                </h>
-
-                <p class="section-subtitle" style="margin-top: 3rem;" id="about-label">Our Mission</p>
-                <h class="h5 section-title">
-                    To remain leading total business and services solutions provider company
-                    in Qatar who guarantees the satisfaction of its clients through the
-                    provision of total products, Services and management, that benefits
-                    the clients personally and professionally.
-                </h>
-
-                <p class="section-subtitle" style="margin-top: 3rem;" id="about-label">Value</p>
-                <h class="h5 section-title">
-                    We provide quality assurance to execute integrated and
-                    innovated solutions. To work with ethics, care about the clients and
-                    build a strong and trusted relationship with them.
-                </h>
-
-
-
-
-                <!-- <ul>
-
-          <li class="about-item">
-            <div class="accordion-card expanded" data-accordion>
-
-              <h3 class="card-title">
-                <button class="accordion-btn" data-accordion-btn>
-                  <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                  <spna class="span h5">Lorem Ipsum 1</spna>
-                </button>
-              </h3>
-
-              <p class="accordion-content">
+            <!-- <h2 class="h2 section-title">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              </p>
+              </h2> -->
 
-            </div>
-          </li>
+            <ul class="grid-list">
 
-          <li class="about-item">
-            <div class="accordion-card" data-accordion>
+                <li>
+                    <div class="service-card">
 
-              <h3 class="card-title">
-                <button class="accordion-btn" data-accordion-btn>
-                  <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                        <div class="card-icon">
+                            <ion-icon name="business-outline" aria-hidden="true"></ion-icon>
+                        </div>
 
-                  <spna class="span h5">Lorem Ipsum 2</spna>
-                </button>
-              </h3>
+                        <h3 class="h4 card-title">Commercial Mediation</h3>
 
-              <p class="accordion-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              </p>
+                        <p class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
 
-            </div>
-          </li>
+                        <!-- <a href="#" class="btn-text">
+                      <span class="span">Learn More</span>
 
-          <li class="about-item">
-            <div class="accordion-card" data-accordion>
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a> -->
 
-              <h3 class="card-title">
-                <button class="accordion-btn" data-accordion-btn>
-                  <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                    </div>
+                </li>
 
-                  <spna class="span h5">Lorem Ipsum 3</spna>
-                </button>
-              </h3>
+                <li>
+                    <div class="service-card">
 
-              <p class="accordion-content">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              </p>
+                        <div class="card-icon">
+                            <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                        </div>
 
-            </div>
-          </li>
+                        <h3 class="h4 card-title">Document Clearing Services</h3>
 
-        </ul> -->
+                        <p class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
 
-            </div>
+                        <!-- <a href="#" class="btn-text">
+                      <span class="span">Learn More</span>
+
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a> -->
+
+                    </div>
+                </li>
+
+                <li>
+                    <div class="service-card">
+
+                        <div class="card-icon">
+                            <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <h3 class="h4 card-title">Management Consulting</h3>
+
+                        <p class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+
+                        <!-- <a href="#" class="btn-text">
+                      <span class="span">Learn More</span>
+
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a> -->
+
+                    </div>
+                </li>
+
+                <li>
+                    <div class="service-card">
+
+                        <div class="card-icon">
+                            <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <h3 class="h4 card-title">Commercial Brokerage</h3>
+
+                        <p class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+
+                        <!-- <a href="#" class="btn-text">
+                      <span class="span">Learn More</span>
+
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a> -->
+
+                    </div>
+                </li>
+                <li>
+                    <div class="service-card">
+
+                        <div class="card-icon">
+                            <ion-icon name="language-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <h3 class="h4 card-title">Translation Services</h3>
+
+                        <p class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+
+                        <!-- <a href="#" class="btn-text">
+                        <span class="span">Learn More</span>
+
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                      </a> -->
+
+                    </div>
+                </li>
+                <li>
+                    <div class="service-card">
+
+                        <div class="card-icon">
+                            <ion-icon name="book-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <h3 class="h4 card-title">Customised Gifts and Art Work</h3>
+
+                        <p class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+
+                        <!-- <a href="#" class="btn-text">
+                        <span class="span">Learn More</span>
+
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                      </a> -->
+
+                    </div>
+                </li>
+                <li>
+                    <div class="service-card">
+
+                        <div class="card-icon">
+                            <ion-icon name="gift-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <h3 class="h4 card-title">Luxurious Gift Trading</h3>
+
+                        <p class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+
+                        <!-- <a href="#" class="btn-text">
+                        <span class="span">Learn More</span>
+
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                      </a> -->
+
+                    </div>
+                </li>
+                <li>
+                    <div class="service-card">
+
+                        <div class="card-icon">
+                            <ion-icon name="business-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <h3 class="h4 card-title">Corporate Event Planning</h3>
+
+                        <p class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+
+                        <!-- <a href="#" class="btn-text">
+                        <span class="span">Learn More</span>
+
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                      </a> -->
+
+                    </div>
+                </li>
+                <li>
+                    <div class="service-card">
+
+                        <div class="card-icon">
+                            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <h3 class="h4 card-title">Event Management</h3>
+
+                        <p class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+
+                        <!-- <a href="#" class="btn-text">
+                        <span class="span">Learn More</span>
+
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                      </a> -->
+
+                    </div>
+                </li>
+                <li>
+                    <div class="service-card">
+
+                        <div class="card-icon">
+                            <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                        </div>
+
+                        <h3 class="h4 card-title">Project and Development Services</h3>
+
+                        <p class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+
+                        <!-- <a href="#" class="btn-text">
+                        <span class="span">Learn More</span>
+
+                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                      </a> -->
+
+                    </div>
+                </li>
+
+            </ul>
 
         </div>
     </section>
 
-
-
-
-
     <!--
-    - #FEATURE
-    -->
+            - #PROJECT
+            -->
 
-    <section class="section feature" aria-labelledby="feature-label">
+    <section class="section project" aria-labelledby="project-label">
         <div class="container">
 
-            <figure class="feature-banner">
-                <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy"
-                    alt="feature banner" class="w-100">
-            </figure>
+            <!-- <p class="section-subtitle" id="project-label">Case Studies</p> -->
 
-            <div class="feature-content">
+            <h2 class="h2 section-title">
+                What Our Users Says</h2>
 
-                <!-- <p class="section-subtitle" id="feautre-label">Our Solutions</p> -->
 
-                <h2 class="h2 section-title">
-                    Crafted for Business Consulting
-                </h2>
+            <ul class="grid-list">
 
-                <p class="section-text">
-                    Whether you're a seasoned consultant or just starting in the field, our
-                    platform provides the perfect tools and features to support your
-                    business consulting needs.
-                </p>
+                <li>
+                    <div class="project-card">
 
-                <ul class="feature-list">
+                        <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                            <img src="{{ asset('website/assets/images/blog-1.jpg') }}" width="560" height="350" loading="lazy"
+                                alt="Lorem Ipsum is simply dummy text" class="img-cover">
+                        </figure>
 
-                    <li>
-                        <div class="feature-card">
+                        <div class="card-content">
 
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
+                            <!-- <h3 class="h3">
+                        <a href="#" class="card-title">Seasoned Professionals</a>
+                      </h3> -->
 
-                            <span class="span">
-                                Management Consulting
-                            </span>
+                            <p class="card-text">
+                                “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
+                                building a community for a more focused and engaging experience. This is the platform for
+                                you.
+                            </p>
 
-                        </div>
-                    </li>
+                            <ul class="card-meta-list">
 
-                    <li>
-                        <div class="feature-card">
+                                <li class="card-meta-item">
+                                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
 
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
+                                    <span class="meta-text">Musharof Chy</span>
+                                </li>
 
-                            <span class="span">
-                                Business Mediation
-                            </span>
+                                <li class="card-meta-item">
+                                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
 
-                        </div>
-                    </li>
+                                    <time class="meta-text" datetime="2022-04-14">DD MM YYYY</time>
+                                </li>
 
-                    <li>
-                        <div class="feature-card">
 
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
-
-                            <span class="span">
-                                Tailored Solution
-                            </span>
+                            </ul>
 
                         </div>
-                    </li>
 
-                    <li>
-                        <div class="feature-card">
+                    </div>
+                </li>
 
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
+                <li>
+                    <div class="project-card">
 
-                            <span class="span">
-                                Client Centric Approach
-                            </span>
+                        <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                            <img src="{{ asset('website/assets/images/blog-2.jpg') }}" width="560" height="350" loading="lazy"
+                                alt="Lorem Ipsum is simply dummy text" class="img-cover">
+                        </figure>
+
+                        <div class="card-content">
+
+                            <!-- <h3 class="h3">
+                        <a href="#" class="card-title">Premier Support</a>
+                      </h3> -->
+
+                            <p class="card-text">
+                                “Our community members consistently express their admiration for our platform, highlighting
+                                its intuitive design, clean interface, and distraction-free environment.
+                            </p>
+
+                            <ul class="card-meta-list">
+
+
+                                <li class="card-meta-item">
+                                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                                    <span class="meta-text">Devid Weilium</span>
+                                </li>
+                                <li class="card-meta-item">
+                                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                                    <time class="meta-text" datetime="2022-03-29">DD MM YYYY</time>
+                                </li>
+
+                            </ul>
 
                         </div>
-                    </li>
-                    <li>
-                        <div class="feature-card">
 
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
+                    </div>
+                </li>
 
-                            <span class="span">
-                                Collaboration
-                            </span>
+                <li>
+                    <div class="project-card">
+
+                        <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                            <img src="{{ asset('website/assets/images/blog-3.jpg') }}" width="560" height="350" loading="lazy"
+                                alt="Lorem Ipsum is simply dummy text" class="img-cover">
+                        </figure>
+
+                        <div class="card-content">
+
+                            <!-- <h3 class="h3">
+                        <a href="#" class="card-title">Business Solution</a>
+                      </h3> -->
+
+                            <p class="card-text">
+                                “Our members have expressed their admiration for our platform, emphasizing its user-friendly
+                                interface and sleek design. They appreciate how it minimizes distractions.
+                            </p>
+
+                            <ul class="card-meta-list">
+                                <li class="card-meta-item">
+                                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                                    <span class="meta-text">Lethium Frenci</span>
+                                </li>
+
+                                <li class="card-meta-item">
+                                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                                    <time class="meta-text" datetime="2022-02-26">DD MM YYYY</time>
+                                </li>
+
+
+
+                            </ul>
 
                         </div>
-                    </li>
-                    <li>
-                        <div class="feature-card">
 
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
+                    </div>
+                </li>
 
-                            <span class="span">
-                                Client Satisfaction
-                            </span>
-
-                        </div>
-                    </li>
-
-                </ul>
-
-            </div>
+            </ul>
 
         </div>
     </section>
