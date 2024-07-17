@@ -53,19 +53,19 @@
                 <ul class="navbar-list">
 
                     <li>
-                        <a href="index.html" class="navbar-link">Home</a>
+                        <a href="{{ url('/') }}" class="navbar-link">Home</a>
                     </li>
 
                     <li>
-                        <a href="about.html" class="navbar-link">About</a>
+                        <a href="{{ url('/about') }}" class="navbar-link">About</a>
                     </li>
 
                     <li>
-                        <a href="Services.html" class="navbar-link">Services</a>
+                        <a href="{{ url('/services') }}" class="navbar-link">Services</a>
                     </li>
 
                     <li>
-                        <a href="contact.html" class="navbar-link">Contact</a>
+                        <a href="{{ url('/contact') }}" class="navbar-link">Contact</a>
                     </li>
 
                 </ul>
