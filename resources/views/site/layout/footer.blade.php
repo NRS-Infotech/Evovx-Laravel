@@ -74,23 +74,23 @@
       </li> -->
 
             <li>
-                <a href="about.html" class="footer-link">About</a>
+                <a href="{{url('/about')}}" class="footer-link">About</a>
             </li>
 
             <li>
-                <a href="Services.html" class="footer-link">Services</a>
+                <a href="{{url('/services')}}" class="footer-link">Services</a>
             </li>
 
             <li>
-                <a href="contact.html" class="footer-link">Contact</a>
+                <a href="{{url('/contact')}}" class="footer-link">Contact</a>
             </li>
 
             <li>
-                <a href="index.html" class="footer-link">Terms of Use</a>
+                <a href="{{url('/')}}" class="footer-link">Terms of Use</a>
             </li>
 
             <li>
-                <a href="index.html" class="footer-link">Privacy Policy</a>
+                <a href="{{url('/')}}" class="footer-link">Privacy Policy</a>
             </li>
 
         </ul>

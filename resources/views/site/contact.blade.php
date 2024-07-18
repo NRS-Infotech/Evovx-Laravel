@@ -18,9 +18,9 @@
 
                 <div class="btn-wrapper">
 
-                    <a href="index.html" class="btn btn-primary">Explore Now</a>
+                    {{-- <a href="{{url('/about')}}" class="btn btn-primary">Explore Now</a> --}}
 
-                    <a href="contact.html" class="btn btn-outline">Contact Us</a>
+                    <a href="{{url('/contact')}}" class="btn btn-outline">Contact Us</a>
 
                 </div>
 
@@ -40,7 +40,7 @@
 
                         </li>
 
-                        <li class="slider-item">
+                        {{-- <li class="slider-item">
 
                             <div class="hero-card">
                                 <figure class="img-holder" style="--width: 575; --height: 550;">
@@ -62,7 +62,7 @@
                                     class="img-cover">
                             </figure>
 
-                        </li>
+                        </li> --}}
 
                     </ul>
                 </div>
@@ -146,7 +146,7 @@
     - #STATS
     -->
 
-    <section class="stats" aria-label="our stats">
+    <section class="stats" aria-label="our stats" >
         <div class="container">
 
             <li class="stats-card has-bg-image" style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">

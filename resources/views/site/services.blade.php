@@ -26,9 +26,9 @@
 
                 <div class="btn-wrapper">
 
-                    <a href="#" class="btn btn-primary">Explore Now</a>
+                    {{-- <a href="{{url('/about')}}" class="btn btn-primary">Explore Now</a> --}}
 
-                    <a href="#" class="btn btn-outline">Contact Us</a>
+                    <a href="{{url('/contact')}}" class="btn btn-outline">Contact Us</a>
 
                 </div>
 
@@ -48,7 +48,7 @@
 
                         </li>
 
-                        <li class="slider-item">
+                        {{-- <li class="slider-item">
 
                             <div class="hero-card">
                                 <figure class="img-holder" style="--width: 575; --height: 550;">
@@ -70,7 +70,7 @@
                                     class="img-cover">
                             </figure>
 
-                        </li>
+                        </li> --}}
 
                     </ul>
                 </div>
@@ -88,255 +88,252 @@
         </div>
     </section>
 
-    <!--
-            - #SERVICE
-            -->
+<!-- Services -->
 
-    <section class="section service" aria-labelledby="service-label">
-        <div class="container">
+<section class="section service" aria-labelledby="service-label">
+  <div class="container">
 
-            <p class="section-subtitle" id="service-label">What We Do?</p>
+      <p class="section-subtitle" id="service-label">What We Do?</p>
 
-            <!-- <h2 class="h2 section-title">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              </h2> -->
+      <!-- <h2 class="h2 section-title">
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+</h2> -->
 
-            <ul class="grid-list">
+      <ul class="grid-list">
 
-                <li>
-                    <div class="service-card">
+          <li>
+              <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="business-outline" aria-hidden="true"></ion-icon>
-                        </div>
+                  <div class="card-icon">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                  </div>
 
-                        <h3 class="h4 card-title">Commercial Mediation</h3>
+                  <h3 class="h4 card-title">Notary Attestation Services</h3>
 
-                        <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
+                  <!-- <p class="card-text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      </p> -->
 
-                        <!-- <a href="#" class="btn-text">
+                  <a href="{{url('/notaryattestation')}}" class="btn-text">
                       <span class="span">Learn More</span>
 
                       <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                    </a> -->
+                  </a>
 
-                    </div>
-                </li>
+              </div>
+          </li>
 
-                <li>
-                    <div class="service-card">
+          <li>
+              <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
-                        </div>
+                  <div class="card-icon">
+                      <ion-icon name="shield-outline" aria-hidden="true"></ion-icon>
+                  </div>
 
-                        <h3 class="h4 card-title">Document Clearing Services</h3>
+                  <h3 class="h4 card-title">PRO Services</h3>
 
-                        <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
+                  <!-- <p class="card-text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      </p> -->
 
-                        <!-- <a href="#" class="btn-text">
+                  <a href="{{url('/proservices')}}" class="btn-text">
                       <span class="span">Learn More</span>
 
                       <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                    </a> -->
+                  </a>
 
-                    </div>
-                </li>
+              </div>
+          </li>
 
-                <li>
-                    <div class="service-card">
+          <li>
+              <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
-                        </div>
+                  <div class="card-icon">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                  </div>
 
-                        <h3 class="h4 card-title">Management Consulting</h3>
+                  <h3 class="h4 card-title">Certificate Attestation Services</h3>
 
-                        <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
+                  <!-- <p class="card-text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      </p> -->
 
-                        <!-- <a href="#" class="btn-text">
+                  <a href="{{url('/certificateattestation')}}" class="btn-text">
                       <span class="span">Learn More</span>
 
                       <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                    </a> -->
+                  </a>
 
-                    </div>
-                </li>
+              </div>
+          </li>
 
-                <li>
-                    <div class="service-card">
+          <li>
+              <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
-                        </div>
+                  <div class="card-icon">
+                      <ion-icon name="flag-outline" aria-hidden="true"></ion-icon>
+                  </div>
 
-                        <h3 class="h4 card-title">Commercial Brokerage</h3>
+                  <h3 class="h4 card-title">Government Relations Services</h3>
 
-                        <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
+                  <!-- <p class="card-text">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      </p> -->
 
-                        <!-- <a href="#" class="btn-text">
+                  <a href="{{url('/governmentservices')}}" class="btn-text">
                       <span class="span">Learn More</span>
 
                       <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                    </a> -->
+                  </a>
 
-                    </div>
-                </li>
-                <li>
-                    <div class="service-card">
+              </div>
+          </li>
+          <li>
+              <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="language-outline" aria-hidden="true"></ion-icon>
-                        </div>
+                  <div class="card-icon">
+                      <ion-icon name="language-outline" aria-hidden="true"></ion-icon>
+                  </div>
 
-                        <h3 class="h4 card-title">Translation Services</h3>
+                  <h3 class="h4 card-title">Legal Translation Services</h3>
 
-                        <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
+                  <!-- <p class="card-text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        </p> -->
 
-                        <!-- <a href="#" class="btn-text">
-                        <span class="span">Learn More</span>
+                  <a href="{{url('/translationservices')}}" class="btn-text">
+                      <span class="span">Learn More</span>
 
-                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                      </a> -->
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
 
-                    </div>
-                </li>
-                <li>
-                    <div class="service-card">
+              </div>
+          </li>
+          <li>
+              <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="book-outline" aria-hidden="true"></ion-icon>
-                        </div>
+                  <div class="card-icon">
+                      <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                  </div>
 
-                        <h3 class="h4 card-title">Customised Gifts and Art Work</h3>
+                  <h3 class="h4 card-title">Going Digital</h3>
 
-                        <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
+                  <!-- <p class="card-text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        </p> -->
 
-                        <!-- <a href="#" class="btn-text">
-                        <span class="span">Learn More</span>
+                  <a href="{{url('/goingdigital')}}" class="btn-text">
+                      <span class="span">Learn More</span>
 
-                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                      </a> -->
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
 
-                    </div>
-                </li>
-                <li>
-                    <div class="service-card">
+              </div>
+          </li>
+          <li>
+              <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="gift-outline" aria-hidden="true"></ion-icon>
-                        </div>
+                  <div class="card-icon">
+                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                  </div>
 
-                        <h3 class="h4 card-title">Luxurious Gift Trading</h3>
+                  <h3 class="h4 card-title">Management Consulting</h3>
 
-                        <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
+                  <!-- <p class="card-text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        </p> -->
 
-                        <!-- <a href="#" class="btn-text">
-                        <span class="span">Learn More</span>
+                  <a href="{{url('/managementconsulting')}}" class="btn-text">
+                      <span class="span">Learn More</span>
 
-                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                      </a> -->
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
 
-                    </div>
-                </li>
-                <li>
-                    <div class="service-card">
+              </div>
+          </li>
+          <li>
+              <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="business-outline" aria-hidden="true"></ion-icon>
-                        </div>
+                  <div class="card-icon">
+                      <ion-icon name="business-outline" aria-hidden="true"></ion-icon>
+                  </div>
 
-                        <h3 class="h4 card-title">Corporate Event Planning</h3>
+                  <h3 class="h4 card-title">Commercial Brokerage</h3>
 
-                        <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
+                  <!-- <p class="card-text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        </p> -->
 
-                        <!-- <a href="#" class="btn-text">
-                        <span class="span">Learn More</span>
+                  <a href="{{url('/commercialbrokerage')}}" class="btn-text">
+                      <span class="span">Learn More</span>
 
-                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                      </a> -->
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
 
-                    </div>
-                </li>
-                <li>
-                    <div class="service-card">
+              </div>
+          </li>
+          <li>
+              <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-                        </div>
+                  <div class="card-icon">
+                      <ion-icon name="gift-outline" aria-hidden="true"></ion-icon>
+                  </div>
 
-                        <h3 class="h4 card-title">Event Management</h3>
+                  <h3 class="h4 card-title">Customized Gifts</h3>
 
-                        <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
+                  <!-- <p class="card-text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        </p> -->
 
-                        <!-- <a href="#" class="btn-text">
-                        <span class="span">Learn More</span>
+                  <a href="{{url('/customizedgift')}}" class="btn-text">
+                      <span class="span">Learn More</span>
 
-                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                      </a> -->
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
 
-                    </div>
-                </li>
-                <li>
-                    <div class="service-card">
+              </div>
+          </li>
+          <li>
+              <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
-                        </div>
+                  <div class="card-icon">
+                      <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                  </div>
 
-                        <h3 class="h4 card-title">Project and Development Services</h3>
+                  <h3 class="h4 card-title">Event Management</h3>
 
-                        <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p>
+                  <!-- <p class="card-text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        </p> -->
 
-                        <!-- <a href="#" class="btn-text">
-                        <span class="span">Learn More</span>
+                  <a href="{{url('/eventmanagement')}}" class="btn-text">
+                      <span class="span">Learn More</span>
 
-                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                      </a> -->
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
 
-                    </div>
-                </li>
+              </div>
+          </li>
 
-            </ul>
+      </ul>
 
-        </div>
-    </section>
-
+  </div>
+</section>
     <!--
             - #PROJECT
             -->
 
-    <section class="section project" aria-labelledby="project-label">
+    {{-- <section class="section project" aria-labelledby="project-label">
         <div class="container">
 
             <!-- <p class="section-subtitle" id="project-label">Case Studies</p> -->
@@ -473,6 +470,6 @@
             </ul>
 
         </div>
-    </section>
+    </section> --}}
 
 @endsection

@@ -1116,6 +1116,6 @@ body.nav-active { overflow: hidden; }
    * FEATURE
    */
 
-  .feature-list { grid-template-columns: 1fr 1fr; }
+  .feature-list { grid-template-columns: 1fr ; }
 
 }

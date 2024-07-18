@@ -13,22 +13,17 @@
                 <h1 class="h1 hero-title">About us</h1>
 
                 <p class="hero-text">
-                    Evovx consultancy and business solutions W.L.L. It is a company that was newly
-                    founded in Qatar Since 2024. Provides a wide range of services including Commercial
-                    mediation, Management Consulting, Commercial brokerage and Documents Clearing and
-                    more other services.
+                  Evovx Consultancy and Business Solutions W.L.L. is a company that was founded in Qatar In 2024. It provides a wide range of services including Commercial mediation, Management consulting, Commercial brokerage and Documents Clearing, and other services.
                 </p>
                 <p class="hero-text">
-                    The professional team has a decade of experience, EVOVX aims to invest
-                    its team professionalism towards your set up new business it will
-                    be located in Doha, Qatar.
+                  Our team at Evovx has a decade of experience, We aim to invest our business acumen and capabilities towards achieving solutions to your business problems.
                 </p>
 
                 <div class="btn-wrapper">
 
-                    <a href="#" class="btn btn-primary">Explore Now</a>
+                    {{-- <a href="{{url('/about')}}" class="btn btn-primary">Explore Now</a> --}}
 
-                    <a href="#" class="btn btn-outline">Contact Us</a>
+                    <a href="{{url('/contact')}}" class="btn btn-outline">Contact Us</a>
 
                 </div>
 
@@ -48,7 +43,7 @@
 
                         </li>
 
-                        <li class="slider-item">
+                        {{-- <li class="slider-item">
 
                             <div class="hero-card">
                                 <figure class="img-holder" style="--width: 575; --height: 550;">
@@ -70,7 +65,7 @@
                                     class="img-cover">
                             </figure>
 
-                        </li>
+                        </li> --}}
 
                     </ul>
                 </div>
@@ -96,8 +91,8 @@
         <div class="container">
 
             <figure class="about-banner">
-                <img src="{{ asset('website/assets/images/about-banner.png') }}" width="800" height="580" loading="lazy" alt="about banner"
-                    class="w-100">
+              <img src="{{ asset('website/assets/images/hero-slide-2.jpg') }}" width="575" height="550"
+              alt="hero banner" class="img-cover">
             </figure>
 
             <div class="about-content">
@@ -105,24 +100,17 @@
                 <p class="section-subtitle" id="about-label">Our Vision</p>
 
                 <h class="h5 section-title">
-                    To serve our clients better and to be the first-choice service provider
-                    for our clients. Supported by strategic alliance and certified
-                    experience to deliver success for our clients.
+                  To serve our clients better and to be the first-choice service provider for our clients. Which is supported by strategic alliance and Certified Experience to deliver success for our clients.
                 </h>
 
                 <p class="section-subtitle" style="margin-top: 3rem;" id="about-label">Our Mission</p>
                 <h class="h5 section-title">
-                    To remain leading total business and services solutions provider company
-                    in Qatar who guarantees the satisfaction of its clients through the
-                    provision of total products, Services and management, that benefits
-                    the clients personally and professionally.
+                  To remain the leading total business and services solutions Provider Company in Qatar that guarantees the Satisfaction of its clients through the provision of total Products, Services and Management, that benefits the Clients Personally and Professionally.
                 </h>
 
                 <p class="section-subtitle" style="margin-top: 3rem;" id="about-label">Value</p>
                 <h class="h5 section-title">
-                    We provide quality assurance to execute integrated and
-                    innovated solutions. To work with ethics, care about the clients and
-                    build a strong and trusted relationship with them.
+                  We provide quality assurance to execute integrated and innovative solutions. To work with ethics, care about the clients and build a strong and trusted relationship with them.
                 </h>
 
             </div>
@@ -142,8 +130,8 @@
         <div class="container">
 
             <figure class="feature-banner">
-                <img src="{{ asset('website/assets/images/feature-banner.png') }}" width="800" height="531" loading="lazy"
-                    alt="feature banner" class="w-100">
+              <img src="{{ asset('website/assets/images/hero-slide-3.jpg') }}" width="575" height="550" alt=""
+              class="img-cover">
             </figure>
 
             <div class="feature-content">
