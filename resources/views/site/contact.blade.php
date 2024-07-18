@@ -20,7 +20,7 @@
 
                     {{-- <a href="{{url('/about')}}" class="btn btn-primary">Explore Now</a> --}}
 
-                    <a href="{{url('/contact')}}" class="btn btn-outline">Contact Us</a>
+                    <a href="#contact-form" class="btn btn-outline">Contact Us</a>
 
                 </div>
 
@@ -147,7 +147,7 @@
     -->
 
     <section class="stats" aria-label="our stats" >
-        <div class="container">
+        <div class="container" id="contact-form">
 
             <li class="stats-card has-bg-image" style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">
 
@@ -208,7 +208,7 @@
                                 class="input-field">
                         </form>
                     </div>
-                    <a href="contact.html" class="btn btn-outline">Submit</a>
+                    <a href="contact.html" class="btn btn-outline submit">Submit</a>
         </div>
 
         </div>

@@ -1119,3 +1119,6 @@ body.nav-active { overflow: hidden; }
   .feature-list { grid-template-columns: 1fr ; }
 
 }
+.submit{
+  margin-top: 3rem;
+}
