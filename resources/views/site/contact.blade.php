@@ -34,8 +34,8 @@
                         <li class="slider-item">
 
                             <figure class="img-holder" style="--width: 575; --height: 550;">
-                                <img src="{{ asset('website/assets/images/hero-slide-1.jpg') }}" width="575" height="550" alt=""
-                                    class="img-cover">
+                                <img src="{{ asset('website/assets/images/hero-slide-1.jpg') }}" width="575"
+                                    height="550" alt="" class="img-cover">
                             </figure>
 
                         </li>
@@ -142,86 +142,46 @@
     </section>
 
 
-    <!--
-    - #STATS
-    -->
-
-    <section class="stats" aria-label="our stats" >
+    {{-- #STATS --}}
+    <section class="" aria-label="our stats">
         <div class="container" id="contact-form">
-
-            <li class="stats-card has-bg-image" style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">
-
-
+            <li class="stats-card has-bg-image"
+                style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">
                 <h1 class="h1 hero-title">Need Help? Contact us</h1>
-
-                <p class="hero-text">
-                    Our support team will get back to you ASAP via email.
-
-                </p>
-
-                <form>
+                <p class="hero-text">Our support team will get back to you ASAP via email.</p>
+                <form action="contact.html" method="POST" class="input-wrapper">
                     <div class="footer-list">
-
                         <p class="h4 footer-list-title">Name</p>
-
-                        <form action="" class="input-wrapper">
-                            <input type="name" name="name" placeholder="Enter your name" required class="input-field">
-                        </form>
-
+                        <input type="text" name="name" placeholder="Enter your name" required class="input-field">
                     </div>
                     <div class="footer-list">
-
                         <p class="h4 footer-list-title">Phone</p>
-
-                        <form action="" class="input-wrapper">
-                            <input type="integer" name="name" placeholder="Enter your phone number" required
-                                class="input-field">
-                        </form>
-
+                        <input type="tel" name="phone" placeholder="Enter your phone number" required
+                            class="input-field">
                     </div>
                     <div class="footer-list">
-
                         <p class="h4 footer-list-title">Email</p>
-
-                        <form action="" class="input-wrapper">
-                            <input type="name" name="name" placeholder="Enter your email" required
-                                class="input-field">
-                        </form>
-
+                        <input type="email" name="email" placeholder="Enter your email" required class="input-field">
                     </div>
                     <div class="footer-list">
-
                         <p class="h4 footer-list-title">Business</p>
-
-                        <form action="" class="input-wrapper">
-                            <input type="name" name="name" placeholder="Enter your business" required
-                                class="input-field">
-                        </form>
-
+                        <input type="text" name="business" placeholder="Enter your business" required
+                            class="input-field">
                     </div>
                     <div class="footer-list">
-
                         <p class="h4 footer-list-title">Message</p>
-
-                        <form action="" class="input-wrapper">
-                            <input type="name" name="name" placeholder="Enter your message" required
-                                class="input-field">
-                        </form>
+                        <textarea name="message" placeholder="Enter your message" required class="input-field"></textarea>
                     </div>
-                    <a href="contact.html" class="btn btn-outline submit">Submit</a>
-        </div>
-
-        </div>
-
-        </form>
-        </li>
-        </li>
+                    <button type="submit" class="btn btn-outline submit">Submit</button>
+                </form>
+            </li>
         </div>
     </section>
 
+
     <!-- Google Map -->
 
-    <section class="about" style="margin-top: 3rem;" aria-labelledby="about-label">
+    <section class="section about" style="margin-top: 3rem;" aria-labelledby="about-label">
         <p>
             <center>
                 <iframe
