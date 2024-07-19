@@ -170,7 +170,7 @@
                     </div>
                     <div class="footer-list">
                         <p class="h4 footer-list-title">Message</p>
-                        <textarea name="message" placeholder="Enter your message" required class="input-field"></textarea>
+                        <textarea name="message" placeholder="Enter your message" required class="input-field" rows="4"></textarea>
                     </div>
                     <button type="submit" class="btn btn-outline submit">Submit</button>
                 </form>
@@ -185,7 +185,7 @@
         <div class="container">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230886.6290772593!2d51.34718383487477!3d25.283917555996037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x44d9319f78cfd4b1!2sDoha%2C%20Qatar!5e0!3m2!1sen!2sae!4v1720788627799!5m2!1sen!2sae"
-                width="100%" height="600" style="border:0;" allowfullscreen="false" loading="lazy"
+                width="100%" height="600" style="border:1px solid #60697b;" allowfullscreen="false" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
