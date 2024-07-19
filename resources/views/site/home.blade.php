@@ -42,7 +42,7 @@
 
                         </li>
 
-                        {{-- <li class="slider-item">
+                        <li class="slider-item">
 
                             <div class="hero-card">
                                 <figure class="img-holder" style="--width: 575; --height: 550;">
@@ -64,7 +64,7 @@
                                     class="img-cover">
                             </figure>
 
-                        </li> --}}
+                        </li>
 
                     </ul>
                 </div>
