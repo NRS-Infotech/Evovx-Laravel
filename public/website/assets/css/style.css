@@ -743,7 +743,7 @@ body.nav-active {
   text-align: left;
   gap: 36px 24px;
   padding: 45px 30px;
-  border-radius: var(--radius-8);
+  /* border-radius: var(--radius-8); */
 }
 
 .stats-card .card-text>* {
@@ -759,7 +759,7 @@ body.nav-active {
 \*-----------------------------------*/
 
 .project {
-  background-color: var(--cultured);
+  /* background-color: var(--cultured); */
 }
 
 .project :is(.section-subtitle, .section-title) {

@@ -74,23 +74,23 @@
       </li> -->
 
             <li>
-                <a href="{{url('/about')}}" class="footer-link">About</a>
+                <a href="{{ url('/about') }}" class="footer-link">About</a>
             </li>
 
             <li>
-                <a href="{{url('/services')}}" class="footer-link">Services</a>
+                <a href="{{ url('/services') }}" class="footer-link">Services</a>
             </li>
 
             <li>
-                <a href="{{url('/contact')}}" class="footer-link">Contact</a>
+                <a href="{{ url('/contact') }}" class="footer-link">Contact</a>
             </li>
 
             <li>
-                <a href="{{url('/')}}" class="footer-link">Terms of Use</a>
+                <a href="{{ url('/') }}" class="footer-link">Terms of Use</a>
             </li>
 
             <li>
-                <a href="{{url('/')}}" class="footer-link">Privacy Policy</a>
+                <a href="{{ url('/') }}" class="footer-link">Privacy Policy</a>
             </li>
 
         </ul>
@@ -152,6 +152,15 @@
 <!-- ionicon -->
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<script>
+    document.querySelectorAll('[data-nav-toggler]').forEach(element => {
+        element.addEventListener('click', () => {
+            document.querySelector('[data-navbar]').classList.toggle('active');
+            document.querySelector('[data-overlay]').classList.toggle('active');
+        });
+    });
+</script>
 
 </body>
 

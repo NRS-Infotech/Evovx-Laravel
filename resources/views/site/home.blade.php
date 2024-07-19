@@ -83,7 +83,7 @@
     </section>
 
     <!-- #ABOUT -->
-    <section class="about" style="margin-top: 3rem;" aria-labelledby="about-label">
+    <section class="section about" style="margin-top: 3rem;" aria-labelledby="about-label">
         <div class="container">
 
             <figure class="about-banner">
@@ -110,78 +110,13 @@
                     We provide quality assurance to execute integrated and innovative solutions. To work with ethics, care about the clients and build a strong and trusted relationship with them.
                 </h>
 
-                <!-- <ul>
-
-          <li class="about-item">
-            <div class="accordion-card expanded" data-accordion>
-
-              <h3 class="card-title">
-                <button class="accordion-btn" data-accordion-btn>
-                  <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                  <spna class="span h5">Our Vision</spna>
-                </button>
-              </h3>
-
-              <p class="accordion-content">
-                To serve our clients better and to be the first-choice service provider
-            for our clients. Supported by strategic alliance and certified
-            experience to deliver success for our clients.
-              </p>
-
-            </div>
-          </li>
-
-          <li class="about-item">
-            <div class="accordion-card" data-accordion>
-
-              <h3 class="card-title">
-                <button class="accordion-btn" data-accordion-btn>
-                  <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                  <spna class="span h5">Our Mission</spna>
-                </button>
-              </h3>
-
-              <p class="accordion-content">
-                To remain leading total business and services solutions provider company
-             in Qatar who guarantees the satisfaction of its clients through the
-             provision of total products, Services and management, that benefits
-             the clients personally and professionally.
-              </p>
-
-            </div>
-          </li>
-
-          <li class="about-item">
-            <div class="accordion-card" data-accordion>
-
-              <h3 class="card-title">
-                <button class="accordion-btn" data-accordion-btn>
-                  <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                  <spna class="span h5">Values</spna>
-                </button>
-              </h3>
-
-              <p class="accordion-content">
-                To be honest, we provide quality assurance to execute integrated and
-            innovated solutions. To work with ethics, care about the clients and
-            build a strong and trusted relationship with them.
-              </p>
-
-            </div>
-          </li>
-
-        </ul> -->
-
             </div>
 
         </div>
     </section>
 
     <!-- #FEATURE -->
-    <section class="section feature" aria-labelledby="feature-label">
+    <section class="feature" aria-labelledby="feature-label">
         <div class="container">
 
             <figure class="feature-banner">
@@ -190,8 +125,6 @@
             </figure>
 
             <div class="feature-content">
-
-                <!-- <p class="section-subtitle" id="feautre-label">Our Solutions</p> -->
 
                 <h2 class="h2 section-title">
                     Crafted for Business Consulting
@@ -295,7 +228,7 @@
     </section>
 
     <!-- #STATS -->
-    <section class="stats" style="color: white; font-size: 21px;" aria-label="our stats">
+    <section class="section" style="color: white; font-size: 21px;" aria-label="our stats">
         <div="container">
 
         <ul class="stats-card has-bg-image" style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">
@@ -353,7 +286,7 @@
 
     <!-- Services -->
 
-    <section class="section service" aria-labelledby="service-label">
+    <section class="service" aria-labelledby="service-label">
         <div class="container">
 
             <p class="section-subtitle" id="service-label">What We Do?</p>
