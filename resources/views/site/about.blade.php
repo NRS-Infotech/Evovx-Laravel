@@ -62,7 +62,7 @@
                     - #ABOUT
                     -->
 
-    <section class="about" style="margin-top: 3rem;" aria-labelledby="about-label">
+    <section class="section about" aria-labelledby="about-label">
         <div class="container">
 
             <figure class="about-banner">
@@ -105,7 +105,7 @@
                     - #FEATURE
                     -->
 
-    <section class="section feature" aria-labelledby="feature-label">
+    <section class="feature" style="padding-bottom: 120px" aria-labelledby="feature-label">
         <div class="container">
 
             <figure class="feature-banner">
