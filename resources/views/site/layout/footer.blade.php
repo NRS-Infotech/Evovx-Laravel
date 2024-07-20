@@ -112,14 +112,15 @@
             <li>
                 <a href="mailto:info@email.com" class="footer-link">
                     <span style="display: flex; align-items: center;">
-                        <ion-icon name="mail"></ion-icon> evovx@gmail.com
+                        <ion-icon name="mail"></ion-icon>  info@evovx.com
                     </span>
                 </a>
             </li>
             <li>
                 <a href="tel:001234567890" class="footer-link">
                     <span style="display: flex; align-items: center;">
-                        <ion-icon name="call"></ion-icon> 986543324567
+                        <ion-icon name="call"></ion-icon> +974 44919000
+                        
                     </span>
                 </a>
             </li>
