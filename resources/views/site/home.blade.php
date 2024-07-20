@@ -31,51 +31,39 @@
             <div class="hero-slider" data-slider>
 
                 <div class="slider-inner">
-                    <ul class="slider-container text-white" data-slider-container>
+                    <ul class="slider-container" data-slider-container>
 
                         <li class="slider-item">
-                            <div class="text-content">
-                                <h2 class="title">Expertise and Experience</h2>
-                                <p>With years of experience in the industry, our team brings a wealth of expertise to every
-                                    project. We've worked with clients from diverse sectors, delivering innovative solutions
-                                    that drive real results.</p>
-                            </div>
+
+                            <figure class="img-holder" style="--width: 575; --height: 550;">
+                                <img src="{{ asset('website/assets/images/hero-slide-1.jpg') }}" width="575"
+                                    height="550" alt="" class="img-cover">
+                            </figure>
+
                         </li>
 
                         <li class="slider-item">
-                            <div class="text-content">
-                                <h2 class="title">Tailored Solutions</h2>
-                                <p>We don't believe in one-size-fits-all solutions. Instead, we take the time to understand
-                                    your unique business needs and goals, crafting tailored solutions that address your
-                                    specific challenges and opportunities.</p>
+
+                            <div class="hero-card">
+                                <figure class="img-holder" style="--width: 575; --height: 550;">
+                                    <img src="{{ asset('website/assets/images/hero-slide-2.jpg') }}" width="575"
+                                        height="550" alt="hero banner" class="img-cover">
+                                </figure>
+
+                                <button class="play-btn" aria-label="play ZabiSahi intro">
+                                    <ion-icon name="play" aria-hidden="true"></ion-icon>
+                                </button>
                             </div>
+
                         </li>
 
                         <li class="slider-item">
-                            <div class="text-content">
-                                <h2 class="title">Collaborative Approach</h2>
-                                <p>Collaboration is at the heart of everything we do. We work closely with our clients
-                                    throughout the entire project lifecycle, ensuring transparency, communication, and
-                                    alignment every step of the way.</p>
-                            </div>
-                        </li>
 
-                        <li class="slider-item">
-                            <div class="text-content">
-                                <h2 class="title">Quality and Reliability</h2>
-                                <p>Quality is non-negotiable for us. We take pride in delivering high-quality solutions that
-                                    meet the highest performance, security, and reliability standards. You can trust us to
-                                    complete the job on time, and within budget.</p>
-                            </div>
-                        </li>
+                            <figure class="img-holder" style="--width: 575; --height: 550;">
+                                <img src="{{ asset('website/assets/images/hero-slide-3.jpg') }}" width="575"
+                                    height="550" alt="" class="img-cover">
+                            </figure>
 
-                        <li class="slider-item">
-                            <div class="text-content">
-                                <h2 class="title">Customer Satisfaction</h2>
-                                <p>Our ultimate goal is your satisfaction. We go above and beyond to exceed your
-                                    expectations, providing exceptional service and support from initial consultation to
-                                    post-launch maintenance and beyond.</p>
-                            </div>
                         </li>
 
                     </ul>
@@ -90,7 +78,6 @@
                 </button>
 
             </div>
-
 
         </div>
     </section>
