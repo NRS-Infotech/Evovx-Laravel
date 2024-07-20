@@ -119,7 +119,7 @@
             <li>
                 <a href="tel:001234567890" class="footer-link">
                     <span style="display: flex; align-items: center;">
-                        <ion-icon name="call"></ion-icon> +92 341 6146 573
+                        <ion-icon name="call"></ion-icon> 986543324567
                     </span>
                 </a>
             </li>
