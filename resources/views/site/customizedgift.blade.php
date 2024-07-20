@@ -18,7 +18,7 @@
 
                 <div class="btn-wrapper">
 
-                    <a href="{{url('/about')}}" class="btn btn-primary">Explore Now</a>
+                    {{-- <a href="{{url('/about')}}" class="btn btn-primary">Explore Now</a> --}}
 
                     <a href="{{url('/contact')}}" class="btn btn-outline">Contact Us</a>
 
@@ -34,7 +34,7 @@
                         <li class="slider-item">
 
                             <figure class="img-holder" style="--width: 575; --height: 550;">
-                                <img src="{{ asset('website/assets/images/Corporate Gifting.jpg') }}" width="575" height="550" alt=""
+                                <img src="{{ asset('website/assets/images/CorporateGifting.jpg') }}" width="575" height="550" alt=""
                                     class="img-cover">
                             </figure>
 
