@@ -34,36 +34,38 @@
                     <ul class="slider-container" data-slider-container>
 
                         <li class="slider-item">
-
-                            <figure class="img-holder" style="--width: 575; --height: 550;">
-                                <img src="{{ asset('website/assets/images/hero-slide-1.jpg') }}" width="575"
+                            <figure class="" style="--width: 575; --height: 550;">
+                                <img src="{{ asset('website/assets/images/home-slide-01.png') }}" width="575"
                                     height="550" alt="" class="img-cover">
                             </figure>
-
                         </li>
 
                         <li class="slider-item">
-
-                            <div class="hero-card">
-                                <figure class="img-holder" style="--width: 575; --height: 550;">
-                                    <img src="{{ asset('website/assets/images/hero-slide-2.jpg') }}" width="575"
-                                        height="550" alt="hero banner" class="img-cover">
-                                </figure>
-
-                                <button class="play-btn" aria-label="play ZabiSahi intro">
-                                    <ion-icon name="play" aria-hidden="true"></ion-icon>
-                                </button>
-                            </div>
-
+                            <figure class="" style="--width: 575; --height: 550;">
+                                <img src="{{ asset('website/assets/images/home-slide-02.png') }}" width="575"
+                                    height="550" alt="" class="img-cover">
+                            </figure>
                         </li>
 
                         <li class="slider-item">
-
-                            <figure class="img-holder" style="--width: 575; --height: 550;">
-                                <img src="{{ asset('website/assets/images/hero-slide-3.jpg') }}" width="575"
+                            <figure class="" style="--width: 575; --height: 550;">
+                                <img src="{{ asset('website/assets/images/home-slide-03.png') }}" width="575"
                                     height="550" alt="" class="img-cover">
                             </figure>
+                        </li>
 
+                        <li class="slider-item">
+                            <figure class="" style="--width: 575; --height: 550;">
+                                <img src="{{ asset('website/assets/images/home-slide-04.png') }}" width="575"
+                                    height="550" alt="" class="img-cover">
+                            </figure>
+                        </li>
+
+                        <li class="slider-item">
+                            <figure class="" style="--width: 575; --height: 550;">
+                                <img src="{{ asset('website/assets/images/home-slide-05.png') }}" width="575"
+                                    height="550" alt="" class="img-cover">
+                            </figure>
                         </li>
 
                     </ul>
