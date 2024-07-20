@@ -34,7 +34,7 @@
                         <li class="slider-item">
 
                             <figure class="img-holder" style="--width: 575; --height: 550;">
-                                <img src="{{ asset('website/assets/images/hero-slide-1.jpg') }}" width="575" height="550" alt=""
+                                <img src="{{ asset('website/assets/images/Corporate Gifting.jpg') }}" width="575" height="550" alt=""
                                     class="img-cover">
                             </figure>
 
