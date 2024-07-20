@@ -25,6 +25,11 @@
     <link rel="preload" as="image" href="{{ asset('website/assets/images/hero-slide-1.jpg') }}">
     <link rel="preload" as="image" href="{{ asset('website/assets/images/hero-slide-2.jpg') }}">
     <link rel="preload" as="image" href="{{ asset('website/assets/images/hero-slide-3.jpg') }}">
+    <link rel="preload" as="image" href="{{ asset('website/assets/images/home-slide-01.jpg') }}">
+    <link rel="preload" as="image" href="{{ asset('website/assets/images/home-slide-02.jpg') }}">
+    <link rel="preload" as="image" href="{{ asset('website/assets/images/home-slide-03.jpg') }}">
+    <link rel="preload" as="image" href="{{ asset('website/assets/images/home-slide-04.jpg') }}">
+    <link rel="preload" as="image" href="{{ asset('website/assets/images/home-slide-05.jpg') }}">
 
 </head>
 
