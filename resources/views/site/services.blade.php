@@ -28,7 +28,7 @@
 
                     {{-- <a href="{{url('/about')}}" class="btn btn-primary">Explore Now</a> --}}
 
-                    <a href="{{url('/contact')}}" class="btn btn-outline">Contact Us</a>
+                    <a href="{{url('/contact')}}#contact-form" class="btn btn-outline">Contact Us</a>
 
                 </div>
 

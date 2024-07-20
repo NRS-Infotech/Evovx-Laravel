@@ -99,7 +99,7 @@
                         <h3 class="h4 card-title">Address</h3>
 
                         <p class="card-text">
-                            Doha, Qatar
+                          Al-Gharafa Zone (51), Al-Hidab St. No. (787), Bldg. No. (55),2nd Floor, Office No. 35, P.O. BOX 63678 Doha, Qatar
                         </p>
 
                     </div>
@@ -115,7 +115,8 @@
                         <h3 class="h4 card-title">Contact Number</h3>
 
                         <p class="card-text">
-                            986543324567
+                          +974 44919000 <br>
+                          +974 3000 0899
 
                         </p>
 
@@ -132,7 +133,7 @@
                         <h3 class="h4 card-title">Email</h3>
 
                         <p class="card-text">
-                            evovx@gmail.com
+                            info@evovx.com
                         </p>
 
                     </div>
