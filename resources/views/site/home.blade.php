@@ -18,11 +18,11 @@
                      mediation, Management consulting, Commercial brokerage and Documents 
                      Clearing, and other services. </p> --}}
 
-                <div class="btn-wrapper" style="margin-top: 3rem;">
+                <div class="btn-wrapper" style="margin-top: 3rem;" >
 
-                    <a href="{{ url('/about') }}" class="btn btn-primary">Explore Now</a>
+                    <a href="{{url('/about')}}" class="btn btn-primary">Explore Now</a>
 
-                    <a href="{{ url('/contact') }}#contact-form" class="btn btn-outline">Contact Us</a>
+                    <a href="{{url('/contact')}}#contact-form" class="btn btn-outline">Contact Us</a>
 
                 </div>
 
@@ -31,51 +31,39 @@
             <div class="hero-slider" data-slider>
 
                 <div class="slider-inner">
-                    <ul class="slider-container text-white" data-slider-container>
+                    <ul class="slider-container" data-slider-container>
 
                         <li class="slider-item">
-                            <div class="text-content">
-                                <h2 class="title">Expertise and Experience</h2>
-                                <p>With years of experience in the industry, our team brings a wealth of expertise to every
-                                    project. We've worked with clients from diverse sectors, delivering innovative solutions
-                                    that drive real results.</p>
-                            </div>
+
+                            <figure class="img-holder" style="--width: 575; --height: 550;">
+                                <img src="{{ asset('website/assets/images/hero-slide-1.jpg') }}" width="575" height="550" alt=""
+                                    class="img-cover">
+                            </figure>
+
                         </li>
 
                         <li class="slider-item">
-                            <div class="text-content">
-                                <h2 class="title">Tailored Solutions</h2>
-                                <p>We don't believe in one-size-fits-all solutions. Instead, we take the time to understand
-                                    your unique business needs and goals, crafting tailored solutions that address your
-                                    specific challenges and opportunities.</p>
+
+                            <div class="hero-card">
+                                <figure class="img-holder" style="--width: 575; --height: 550;">
+                                    <img src="{{ asset('website/assets/images/hero-slide-2.jpg') }}" width="575" height="550"
+                                        alt="hero banner" class="img-cover">
+                                </figure>
+
+                                <button class="play-btn" aria-label="play ZabiSahi intro">
+                                    <ion-icon name="play" aria-hidden="true"></ion-icon>
+                                </button>
                             </div>
+
                         </li>
 
                         <li class="slider-item">
-                            <div class="text-content">
-                                <h2 class="title">Collaborative Approach</h2>
-                                <p>Collaboration is at the heart of everything we do. We work closely with our clients
-                                    throughout the entire project lifecycle, ensuring transparency, communication, and
-                                    alignment every step of the way.</p>
-                            </div>
-                        </li>
 
-                        <li class="slider-item">
-                            <div class="text-content">
-                                <h2 class="title">Quality and Reliability</h2>
-                                <p>Quality is non-negotiable for us. We take pride in delivering high-quality solutions that
-                                    meet the highest performance, security, and reliability standards. You can trust us to
-                                    complete the job on time, and within budget.</p>
-                            </div>
-                        </li>
+                            <figure class="img-holder" style="--width: 575; --height: 550;">
+                                <img src="{{ asset('website/assets/images/hero-slide-3.jpg') }}" width="575" height="550" alt=""
+                                    class="img-cover">
+                            </figure>
 
-                        <li class="slider-item">
-                            <div class="text-content">
-                                <h2 class="title">Customer Satisfaction</h2>
-                                <p>Our ultimate goal is your satisfaction. We go above and beyond to exceed your
-                                    expectations, providing exceptional service and support from initial consultation to
-                                    post-launch maintenance and beyond.</p>
-                            </div>
                         </li>
 
                     </ul>
@@ -91,7 +79,6 @@
 
             </div>
 
-
         </div>
     </section>
 
@@ -101,7 +88,7 @@
 
             <figure class="about-banner">
                 <img src="{{ asset('website/assets/images/hero-slide-2.jpg') }}" width="575" height="550"
-                    alt="hero banner" class="img-cover">
+                                        alt="hero banner" class="img-cover">
             </figure>
 
             <div class="about-content">
@@ -110,21 +97,17 @@
                 <p class="section-subtitle" id="about-label">Our Vision</p>
 
                 <h class="h5 section-title">
-                    To serve our clients better and to be the first-choice service provider for our clients. Which is
-                    supported by strategic alliance and Certified Experience to deliver success for our clients.
+                    To serve our clients better and to be the first-choice service provider for our clients. Which is supported by strategic alliance and Certified Experience to deliver success for our clients.
                 </h>
 
                 <p class="section-subtitle" style="margin-top: 3rem;" id="about-label">Our Mission</p>
                 <h class="h5 section-title">
-                    To remain the leading total business and services solutions Provider Company in Qatar that guarantees
-                    the Satisfaction of its clients through the provision of total Products, Services and Management, that
-                    benefits the Clients Personally and Professionally.
+                    To remain the leading total business and services solutions Provider Company in Qatar that guarantees the Satisfaction of its clients through the provision of total Products, Services and Management, that benefits the Clients Personally and Professionally.
                 </h>
 
                 <p class="section-subtitle" style="margin-top: 3rem;" id="about-label">Value</p>
                 <h class="h5 section-title">
-                    We provide quality assurance to execute integrated and innovative solutions. To work with ethics, care
-                    about the clients and build a strong and trusted relationship with them.
+                    We provide quality assurance to execute integrated and innovative solutions. To work with ethics, care about the clients and build a strong and trusted relationship with them.
                 </h>
 
             </div>
@@ -137,8 +120,8 @@
         <div class="container">
 
             <figure class="feature-banner">
-                <img src="{{ asset('website/assets/images/hero-slide-3.jpg') }}" width="575" height="550"
-                    alt="" class="img-cover">
+                <img src="{{ asset('website/assets/images/hero-slide-3.jpg') }}" width="575" height="550" alt=""
+                                    class="img-cover">
             </figure>
 
             <div class="feature-content">
@@ -248,8 +231,7 @@
     <section class="section" style="color: white; font-size: 21px;" aria-label="our stats">
         <div="container">
 
-        <ul class="stats-card has-bg-image"
-            style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">
+        <ul class="stats-card has-bg-image" style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">
 
             <details style="margin-bottom: 3rem;">
                 <summary>Seasoned Professionals</summary>
@@ -274,30 +256,30 @@
         </ul>
 
         <!-- <li>
-              <p class="hero-text">
-                <span class="span">Seasoned Professionals</span>
+          <p class="hero-text">
+            <span class="span">Seasoned Professionals</span>
 
-                <spna class="span">Seasoned Professionals</spna>
-              </p>
-            </li> -->
-
-        <!-- <li>
-              <p class="card-text">
-                <span class="span">Premier Support</span>
-
-                <spna class="span">Receive personalized support with a dedicated account
-                   manager who understands your business needs and goals.</spna>
-              </p>
-            </li> -->
+            <spna class="span">Seasoned Professionals</spna>
+          </p>
+        </li> -->
 
         <!-- <li>
-              <p class="card-text">
-                <span class="span">Business Solution</span>
+          <p class="card-text">
+            <span class="span">Premier Support</span>
 
-                <spna class="span">Connect with clients and other consultants effortlessly,
-                  fostering a strong professional community.</spna>
-              </p>
-            </li> -->
+            <spna class="span">Receive personalized support with a dedicated account
+               manager who understands your business needs and goals.</spna>
+          </p>
+        </li> -->
+
+        <!-- <li>
+          <p class="card-text">
+            <span class="span">Business Solution</span>
+
+            <spna class="span">Connect with clients and other consultants effortlessly,
+              fostering a strong professional community.</spna>
+          </p>
+        </li> -->
 
         </div=>
     </section>
@@ -310,8 +292,8 @@
             <p class="section-subtitle" id="service-label">What We Do?</p>
 
             <!-- <h2 class="h2 section-title">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          </h2> -->
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      </h2> -->
 
             <ul class="grid-list">
 
@@ -325,11 +307,11 @@
                         <h3 class="h4 card-title">Notary Attestation Services</h3>
 
                         <!-- <p class="card-text">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                </p> -->
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            </p> -->
 
-                        <a href="{{ url('/notaryattestation') }}" class="btn-text">
+                        <a href="{{url('/notaryattestation')}}" class="btn-text">
                             <span class="span">Learn More</span>
 
                             <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -348,11 +330,11 @@
                         <h3 class="h4 card-title">PRO Services</h3>
 
                         <!-- <p class="card-text">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                </p> -->
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            </p> -->
 
-                        <a href="{{ url('/proservices') }}" class="btn-text">
+                        <a href="{{url('/proservices')}}" class="btn-text">
                             <span class="span">Learn More</span>
 
                             <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -371,11 +353,11 @@
                         <h3 class="h4 card-title">Certificate Attestation Services</h3>
 
                         <!-- <p class="card-text">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                </p> -->
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            </p> -->
 
-                        <a href="{{ url('/certificateattestation') }}" class="btn-text">
+                        <a href="{{url('/certificateattestation')}}" class="btn-text">
                             <span class="span">Learn More</span>
 
                             <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -394,11 +376,11 @@
                         <h3 class="h4 card-title">Government Relations Services</h3>
 
                         <!-- <p class="card-text">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                </p> -->
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            </p> -->
 
-                        <a href="{{ url('/governmentservices') }}" class="btn-text">
+                        <a href="{{url('/governmentservices')}}" class="btn-text">
                             <span class="span">Learn More</span>
 
                             <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -416,11 +398,11 @@
                         <h3 class="h4 card-title">Legal Translation Services</h3>
 
                         <!-- <p class="card-text">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  </p> -->
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              </p> -->
 
-                        <a href="{{ url('/translationservices') }}" class="btn-text">
+                        <a href="{{url('/translationservices')}}" class="btn-text">
                             <span class="span">Learn More</span>
 
                             <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -438,11 +420,11 @@
                         <h3 class="h4 card-title">Going Digital</h3>
 
                         <!-- <p class="card-text">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  </p> -->
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              </p> -->
 
-                        <a href="{{ url('/goingdigital') }}" class="btn-text">
+                        <a href="{{url('/goingdigital')}}" class="btn-text">
                             <span class="span">Learn More</span>
 
                             <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -460,11 +442,11 @@
                         <h3 class="h4 card-title">Management Consulting</h3>
 
                         <!-- <p class="card-text">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  </p> -->
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              </p> -->
 
-                        <a href="{{ url('/managementconsulting') }}" class="btn-text">
+                        <a href="{{url('/managementconsulting')}}" class="btn-text">
                             <span class="span">Learn More</span>
 
                             <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -482,11 +464,11 @@
                         <h3 class="h4 card-title">Commercial Brokerage</h3>
 
                         <!-- <p class="card-text">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  </p> -->
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              </p> -->
 
-                        <a href="{{ url('/commercialbrokerage') }}" class="btn-text">
+                        <a href="{{url('/commercialbrokerage')}}" class="btn-text">
                             <span class="span">Learn More</span>
 
                             <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -504,11 +486,11 @@
                         <h3 class="h4 card-title">Customized Gifts</h3>
 
                         <!-- <p class="card-text">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  </p> -->
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              </p> -->
 
-                        <a href="{{ url('/customizedgift') }}" class="btn-text">
+                        <a href="{{url('/customizedgift')}}" class="btn-text">
                             <span class="span">Learn More</span>
 
                             <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -526,11 +508,11 @@
                         <h3 class="h4 card-title">Event Management</h3>
 
                         <!-- <p class="card-text">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  </p> -->
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              </p> -->
 
-                        <a href="{{ url('/eventmanagement') }}" class="btn-text">
+                        <a href="{{url('/eventmanagement')}}" class="btn-text">
                             <span class="span">Learn More</span>
 
                             <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -559,8 +541,8 @@
                     <div class="project-card">
 
                         <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                            <img src="{{ asset('website/assets/images/blog-1.jpg') }}" width="560" height="350"
-                                loading="lazy" alt="Lorem Ipsum is simply dummy text" class="img-cover">
+                            <img src="{{ asset('website/assets/images/blog-1.jpg') }}" width="560" height="350" loading="lazy"
+                                alt="Lorem Ipsum is simply dummy text" class="img-cover">
                         </figure>
 
                         <div class="card-content">
@@ -597,8 +579,8 @@
                     <div class="project-card">
 
                         <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                            <img src="{{ asset('website/assets/images/blog-2.jpg') }}" width="560" height="350"
-                                loading="lazy" alt="Lorem Ipsum is simply dummy text" class="img-cover">
+                            <img src="{{ asset('website/assets/images/blog-2.jpg') }}" width="560" height="350" loading="lazy"
+                                alt="Lorem Ipsum is simply dummy text" class="img-cover">
                         </figure>
 
                         <div class="card-content">
@@ -634,8 +616,8 @@
                     <div class="project-card">
 
                         <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                            <img src="{{ asset('website/assets/images/blog-3.jpg') }}" width="560" height="350"
-                                loading="lazy" alt="Lorem Ipsum is simply dummy text" class="img-cover">
+                            <img src="{{ asset('website/assets/images/blog-3.jpg') }}" width="560" height="350" loading="lazy"
+                                alt="Lorem Ipsum is simply dummy text" class="img-cover">
                         </figure>
 
                         <div class="card-content">
