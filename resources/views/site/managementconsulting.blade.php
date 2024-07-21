@@ -64,7 +64,7 @@
 
             <div class="about-content">
                 <p>
-                    They typically analyze the client's current business operations, identify
+                    We typically analyze the client's current business operations, identify
                     areas for improvement, and offer recommendations for strategic changes or
                     operational enhancements. Our Management consultants specialize in various areas
                     such as strategy, operations, finance, human resources, or technology. Their

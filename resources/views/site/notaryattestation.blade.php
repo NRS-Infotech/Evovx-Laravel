@@ -15,8 +15,7 @@
                 <p class="hero-text">
                     Getting a certificate notarized makes it a legally valid authenticated
                     document. And it is an important milestone to get your immigration process
-                    cleared before moving to any foreign country. Helpline
-                    Group will assist you to get your
+                    cleared before moving to any foreign country. Evovx will assist you to get your
                     Notary certificate attestation in Qatar.
                 </p>
                 <p class="hero-text">

@@ -74,7 +74,7 @@
 
             <div class="about-content">
                 <p>
-                    The demand for Mandoob services in Qatar has witnessed a substantial rise
+                    The demand for Evovx services in Qatar has witnessed a substantial rise
                     due to the ever increasing growth in the economy and has created ample of
                     opportunities in different domains in Qatar. Evovx promises a
                     plethora of PRO services and guarantees 100% efficiency and quality with
@@ -82,8 +82,7 @@
 
                 </p>
                 <p style="margin-top: 3rem;">However, it is important to consult an agency regarding the PRO Services
-                    so that the legal processes are conducted without any hassles. Helpline
-                    Group is one such agency that fits the bill with their efficient staff,
+                    so that the legal processes are conducted without any hassles.Evovx is one such agency that fits the bill with their efficient staff,
                     vast experience in dealing with various legal processes in Qatar. By
                     consulting an experienced agency, clients will able to save their precious
                     time and also will ensure proper guidance regarding the legal matters.</p>
@@ -134,8 +133,7 @@
                     Whether you need to obtain a trade license, a visa, a work permit, a
                     labor card, a health card, or any other document or approval
                     from the government, we can handle it for you with ease and efficiency. We are ready to serve you
-                    anytime, anywhere. Call us at +974 4427 1100 or What’s App us at +974 7065
-                    8000.</p>
+                    anytime, anywhere.</p>
             </details>
 
         </ul>

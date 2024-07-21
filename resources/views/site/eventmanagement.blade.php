@@ -78,7 +78,7 @@
 
                 <p>
                     It requires strong organizational skills, attention to detail, effective communication, problem-solving
-                    abilities, and the ability to work under pressure. Professionals in this field often use event
+                    abilities, and the ability to work under pressure. Our professionals in this field often use event
                     management software and tools to streamline processes and enhance efficiency.
 
                 </p>

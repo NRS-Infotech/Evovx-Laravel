@@ -14,7 +14,7 @@
 
                 <p class="hero-text">
                     Qatar is a rapidly developing country with a dynamic economy, making it an
-                    attractive destination for businesseslooking to expand their reach in the
+                    attractive destination for businesses looking to expand their reach in the
                     Middle East. However, operating in Qatar can be complex, particularly
                     when it comes to navigating the country’s government and regulatory
                     environment. This is where government relations services come in, providing

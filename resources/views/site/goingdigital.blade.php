@@ -83,8 +83,7 @@
 
                 </p>
                 <p style="margin-top: 3rem;">On the flip side, many organizations only implement a day forward scanning
-                    program or scan individual files on an ad hoc basis. Whatever the goal, Al
-                    Bidda WareHousing makes the planning, preparation and conversion
+                    program or scan individual files on an ad hoc basis. Whatever the goal, Evovx makes the planning, preparation and conversion
                     process efficient and convenient. Always, when deciding to go digital, the
                     retention period for each document should be evaluated to stay compliant
                     and avoid unnecessary imaging costs.</p>
@@ -194,10 +193,9 @@
 
 
                 <p>
-                    Once the scanning strategy and plan has been determined, Evovx
-                    WareHousing will pick up the documents that need to be converted with
+                    Once the scanning strategy and plan has been determined, Evovx will pick up the documents that need to be converted with
                     one of our secure transportation vehicles and will transport them back to our
-                    scanning facility. All documents then undergo a preparation process – this is
+                    scanning facility. All documents then undergo a preparation process this is
                     where majority of the time is allocated to in an imaging project. Files and
                     documents are organized, staples and fasteners are removed, corners are
                     straightened, damaged pages are taped, etc. We can handle all paper sizes,
@@ -207,13 +205,11 @@
                 </p>
                 <p style="margin-top: 3rem;">After all documents go through the preparation process, they are then ready
                     to be fed through our state-of-the-art, high-speed scanners. Most
-                    documents can be fed through scanner feeders, however, when necessary, Al
-                    Bidda WareHousing also uses flatbeds to scan special size and special
+                    documents can be fed through scanner feeders. However, when necessary Evovx also uses flatbeds to scan special size and special
                     handling documents. All of our scanners can produce black and white or
                     colour images and are equipped with auto-improvement features to ensure
                     the best quality scan. Our document specialists monitor the scanning
-                    process and perform a quality check for readability and clarity. Evovx
-                    WareHousing offers a satisfaction guarantee for all scanning projects.</p>
+                    process and perform a quality check for readability and clarity. Evovx offers a satisfaction guarantee for all scanning projects.</p>
 
 
 
