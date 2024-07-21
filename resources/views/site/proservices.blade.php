@@ -76,7 +76,7 @@
                 <p>
                     The demand for Mandoob services in Qatar has witnessed a substantial rise
                     due to the ever increasing growth in the economy and has created ample of
-                    opportunities in different domains in Qatar. Helpline Group promises a
+                    opportunities in different domains in Qatar. Evovx promises a
                     plethora of PRO services and guarantees 100% efficiency and quality with
                     their work.
 
@@ -129,7 +129,7 @@
 
                 <summary>Why Choose Us as Your PRO Service Provider in Qatar?</summary>
                 <p>If you are looking for the best PRO service provider in Qatar, look no further
-                    than us. We at Helpline Group are a leading PRO service company in Qatar that
+                    than us. We at Evovx are a leading PRO service company in Qatar that
                     offers a wide range of PRO services for all types of businesses.
                     Whether you need to obtain a trade license, a visa, a work permit, a
                     labor card, a health card, or any other document or approval

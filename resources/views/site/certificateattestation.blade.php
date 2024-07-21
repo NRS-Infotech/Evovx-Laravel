@@ -13,11 +13,11 @@
                 <h1 class="h1 hero-title">Certificate Attestation Services</h1>
 
                 <p class="hero-text">
-                    Helpline group is an ISO-certified and internationally recognized company for certificate attestation in
+                    Evovx is an ISO-certified and internationally recognized company for certificate attestation in
                     Qatar. We are an embassy-approved company providing assistance in the attestation process of all kinds
                     of certificates for various purposes. The long 20 years of rich experience in the field glorifies the
                     service that we have rendered to our customers. The transparent, customer-oriented, ethical, and
-                    reliable services provided at Helpline Group, make us the No.1 in Qatar in the field of certificate
+                    reliable services provided at Evovx, make us the No.1 in Qatar in the field of certificate
                     attestation services.
                 </p>
 
@@ -224,8 +224,8 @@
               <ul class="stats-card has-bg-image" style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">
 
               <details >
-                <summary>The Motto of the Helpline Group attestation service is Quick delivery, transparency, credibility, and customer satisfaction. You can reach the
-                  Helpline Group to experience the best and most secure certificate attestation services in Qatar for your every need.</summary>
+                <summary>The Motto of the Evovx attestation service is Quick delivery, transparency, credibility, and customer satisfaction. You can reach the
+                  Evovx to experience the best and most secure certificate attestation services in Qatar for your every need.</summary>
                   
               </details>
             

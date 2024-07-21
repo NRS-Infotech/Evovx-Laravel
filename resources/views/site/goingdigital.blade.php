@@ -72,7 +72,7 @@
 
 
                 <p>
-                    Al Bidda Warehousing will help you identify what is the best strategy when
+                    Evovx will help you identify what is the best strategy when
                     converting your physical documents into digital files since each organization
                     has different record access requirements, retention period dates and policies
                     when it comes to document and information management. At times, there is
@@ -105,7 +105,7 @@
             <div class="feature-content">
 
                 <h2 class="h5 section-title">
-                    Al Bidda WareHousing offers the following scanning programs:
+                    Evovx offers the following scanning programs:
                 </h2>
 
                 <ul class="feature-list">
@@ -194,7 +194,7 @@
 
 
                 <p>
-                    Once the scanning strategy and plan has been determined, Al Bidda
+                    Once the scanning strategy and plan has been determined, Evovx
                     WareHousing will pick up the documents that need to be converted with
                     one of our secure transportation vehicles and will transport them back to our
                     scanning facility. All documents then undergo a preparation process – this is
@@ -212,7 +212,7 @@
                     handling documents. All of our scanners can produce black and white or
                     colour images and are equipped with auto-improvement features to ensure
                     the best quality scan. Our document specialists monitor the scanning
-                    process and perform a quality check for readability and clarity. Al Bidda
+                    process and perform a quality check for readability and clarity. Evovx
                     WareHousing offers a satisfaction guarantee for all scanning projects.</p>
 
 

@@ -70,8 +70,8 @@
 
             <div class="about-content">
                 <p>
-                    We Speak more than 100 Languages. Helpline Group provides professional legal translation
-                    services in Qatar for all types of documentation requirements. Helpline Group, the
+                    We Speak more than 100 Languages. Evovx provides professional legal translation
+                    services in Qatar for all types of documentation requirements. Evovx, the
                     best translation agency operates from Doha,Qatar and the surrounding Gulf Region.
                     You can trust our high-quality translation services to meet your needs. We
                     are a team of professional certified translators in Qatar who are having multi-task skills
@@ -120,7 +120,7 @@
                     Dutch, Afrikaans, Canadian, Farsi, Greek, Hawaiian, Hebrew, Hindi, Irish, Polish,
                     Russian, Spanish, Tamil, Thai, Urdu, German, Hungarian, Korean, Latin, Norwegian, Portuguese, Tagalog,
                     English, then, your search ends here with one of the best translation
-                    companies in Qatar, that means Helpline Group!</summary>
+                    companies in Qatar, that means Evovx!</summary>
 
             </details>
         </ul>
@@ -138,7 +138,7 @@
             <div class="feature-content">
 
                 <h2 class="h5 section-title">
-                    The Helpline group is here to meet your English to Arabic Translation needs and offer superior services
+                    The Evovx is here to meet your English to Arabic Translation needs and offer superior services
                     for the following industries by our expert team for legal translation
                     services in Qatar
                 </h2>

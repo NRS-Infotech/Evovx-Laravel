@@ -91,7 +91,7 @@
                 <p style="margin-top: 3rem;">
                     We do Notary services from India, UK, USA for Educational, Marriage,
                     Birth, Experience, School Transfer certificates, Company documents, and
-                    Export Import documents. Contact Helpline Group today to get assistance for notary public attestation
+                    Export Import documents. Contact Evovx today to get assistance for notary public attestation
                     Services Qatar.
 
                 </p>
