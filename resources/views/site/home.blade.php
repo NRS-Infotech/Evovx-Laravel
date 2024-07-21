@@ -242,22 +242,19 @@
 
             <details style="margin-bottom: 3rem;">
                 <summary>Seasoned Professionals</summary>
-                <p>Provide opportunities for continuous learning and career growth. Offer challenging and interesting
-                    projects that allow professionals to use and expand their skills.</p>
+                <p>We Provide opportunities for continuous learning and Business growth. We solve challenging and interesting business problems and do projects that allow businesses to expand their horizons.</p>
             </details>
 
             <details style="margin-bottom: 3rem;">
 
                 <summary>Premier Support</summary>
-                <p>Receive personalized support with a dedicated account
-                    manager who understands your business needs and goals.</p>
+                <p>We provide personalised support with a dedicated team of skilled professionals who understand your business needs and goals.</p>
             </details>
 
             <details style="margin-bottom: 3rem;">
 
                 <summary>Business Solution</summary>
-                <p>Connect with clients and other consultants effortlessly,
-                    fostering a strong professional community.</p>
+                <p>Connect with us and our consultants effortlessly, fostering a strong professional community.</p>
             </details>
 
         </ul>
