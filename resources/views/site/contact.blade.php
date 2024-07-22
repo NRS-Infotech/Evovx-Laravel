@@ -99,7 +99,8 @@
                         <h3 class="h4 card-title">Address</h3>
 
                         <p class="card-text">
-                          Al-Gharafa Zone (51), Al-Hidab St. No. (787), Bldg. No. (55),2nd Floor, Office No. 35, P.O. BOX 63678 Doha, Qatar
+                            Al-Gharafa Zone (51), Al-Hidab St. No. (787), Bldg. No. (55),2nd Floor, Office No. 35, P.O. BOX
+                            63678 Doha, Qatar
                         </p>
 
                     </div>
@@ -115,8 +116,8 @@
                         <h3 class="h4 card-title">Contact Number</h3>
 
                         <p class="card-text">
-                          +974 44919000 <br>
-                          +974 3000 0899
+                            +974 44919000 <br>
+                            +974 3000 0899
 
                         </p>
 
@@ -150,15 +151,15 @@
                 style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">
                 <h1 class="h1 hero-title">Need Help? Contact us</h1>
                 <p class="hero-text">Our support team will get back to you ASAP via email.</p>
-                <form action="contact.html" method="POST" class="input-wrapper">
+                <form id="contactForm" class="input-wrapper">
+                    @csrf
                     <div class="footer-list">
                         <p class="h4 footer-list-title">Name</p>
                         <input type="text" name="name" placeholder="Enter your name" required class="input-field">
                     </div>
                     <div class="footer-list">
                         <p class="h4 footer-list-title">Phone</p>
-                        <input type="tel" name="phone" placeholder="Enter your phone number" required
-                            class="input-field">
+                        <input type="tel" name="phone" placeholder="Enter your phone number" class="input-field">
                     </div>
                     <div class="footer-list">
                         <p class="h4 footer-list-title">Email</p>
@@ -173,15 +174,16 @@
                         <p class="h4 footer-list-title">Message</p>
                         <textarea name="message" placeholder="Enter your message" required class="input-field" rows="4"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-outline submit">Submit</button>
+                    <div class="justify-content-center">
+                        <button type="submit" class="btn btn-outline submit">Submit</button>
+                    </div>
                 </form>
+                <div id="formMessages"></div>
             </li>
         </div>
     </section>
 
-
     <!-- Google Map -->
-
     <section class="section" aria-labelledby="about-label">
         <div class="container">
             <iframe
@@ -192,3 +194,34 @@
     </section>
 
 @endsection
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#contactForm').on('submit', function(e) {
+            e.preventDefault();
+
+            var formData = $(this).serialize();
+
+            $.ajax({
+                type: 'POST',
+                url: '{{ route('contact.store') }}',
+                data: formData,
+                success: function(response) {
+                    $('#formMessages').html('<div class="alert alert-success">' + response
+                        .message + '</div>');
+                    $('#contactForm')[0].reset();
+                },
+                error: function(xhr) {
+                    var errors = xhr.responseJSON.errors;
+                    var errorMessage = '<div class="alert alert-danger"><ul>';
+                    $.each(errors, function(key, value) {
+                        errorMessage += '<li>' + value[0] + '</li>';
+                    });
+                    errorMessage += '</ul></div>';
+                    $('#formMessages').html(errorMessage);
+                }
+            });
+        });
+    });
+</script>

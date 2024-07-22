@@ -303,7 +303,7 @@ body.nav-active {
   width: 100%;
 }
 
-.text-white{
+.text-white {
   color: white;
 }
 
@@ -865,7 +865,7 @@ body.nav-active {
 
 .footer-list-title {
   color: var(--white);
-  margin-block-end: 16px;
+  margin-block-start: 16px;
 }
 
 .footer-link {
@@ -907,6 +907,89 @@ body.nav-active {
   color: var(--white);
   padding-inline: 24px;
   font-weight: var(--fw-700);
+}
+
+/* Base alert styles */
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+/* Success alert styles */
+.alert-success {
+  color: var(--charcoal);
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+/* Warning alert styles */
+.alert-warning {
+  color: #ffbf00;
+  background-color: #ffffff;
+  border-color: #ffeeba;
+}
+
+/* Danger alert styles */
+.alert-danger {
+  color: #ff0019;
+  background-color: #ffffff;
+  border-color: #f5c6cb;
+}
+
+/* Dismissible alert styles */
+.alert-dismissible {
+  padding-right: 4rem;
+}
+
+.alert-dismissible .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.75rem 1.25rem;
+  color: inherit;
+}
+
+/* Close button styles */
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.5;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+/* Fade animation styles */
+.fade {
+  transition: opacity 0.15s linear;
+}
+
+.fade:not(.show) {
+  opacity: 0;
+}
+
+.show {
+  display: block;
+  opacity: 1;
+}
+
+.justify-content-center {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 

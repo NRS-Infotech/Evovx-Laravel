@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\Website\BasicController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Website\BasicController;
+use App\Http\Controllers\Website\ContactController;
 
 Route::get('/', [BasicController::class, 'home'])->name('website.home');
 Route::get('/about', [BasicController::class, 'about'])->name('website.about');
@@ -17,3 +18,5 @@ Route::get('/managementconsulting', [BasicController::class, 'managementconsulti
 Route::get('/commercialbrokerage', [BasicController::class, 'commercialbrokerage'])->name('website.commercialbrokerage');
 Route::get('/customizedgift', [BasicController::class, 'customizedgift'])->name('website.customizedgift');
 Route::get('/eventmanagement', [BasicController::class, 'eventmanagement'])->name('website.eventmanagement');
+
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
