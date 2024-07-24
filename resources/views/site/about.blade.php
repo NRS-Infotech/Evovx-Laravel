@@ -60,7 +60,7 @@
 
     {{-- #ABOUT --}}
 
-    {{-- <section class="section about" aria-labelledby="about-label">
+    <section class="section about" aria-labelledby="about-label">
         <div class="container">
 
             <figure class="about-banner">
@@ -93,12 +93,12 @@
             </div>
 
         </div>
-    </section> --}}
+    </section>
 
 
     {{-- #FEATURE --}}
 
-    <section class="feature" style="padding-bottom: 120px" aria-labelledby="feature-label">
+    {{-- <section class="feature" style="padding-bottom: 120px" aria-labelledby="feature-label">
         <div class="container">
 
             <figure class="feature-banner">
@@ -108,7 +108,7 @@
 
             <div class="feature-content">
 
-                <!-- <p class="section-subtitle" id="feautre-label">Our Solutions</p> -->
+                <p class="section-subtitle" id="feautre-label">Our Solutions</p>
 
                 <h2 class="h2 section-title">
                     Crafted for Business Consulting
@@ -209,6 +209,6 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
 
 @endsection
