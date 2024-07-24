@@ -148,7 +148,7 @@
     <section class="" aria-label="our stats">
         <div class="container" id="contact-form">
             <li class="stats-card has-bg-image"
-                style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">
+                style="background-color: color(srgb 5.49% 16.5% 27.8%); border-radius: 10px;">
                 <h1 class="h1 hero-title">Need Help? Contact us</h1>
                 <p class="hero-text">Our support team will get back to you ASAP via email.</p>
                 <form id="contactForm" class="input-wrapper">
