@@ -234,7 +234,7 @@
     </section>
 
     <!-- #STATS -->
-    <section class="section" style="color: white; font-size: 21px;" aria-label="our stats">
+    {{-- <section class="section" style="color: white; font-size: 21px;" aria-label="our stats">
         <div="container">
 
         <ul class="stats-card has-bg-image"
@@ -257,7 +257,7 @@
                 <p>Connect with us and our consultants effortlessly, fostering a strong professional community.</p>
             </details>
 
-        </ul>
+        </ul> --}}
 
         <!-- <li>
               <p class="hero-text">
@@ -285,8 +285,8 @@
               </p>
             </li> -->
 
-        </div=>
-    </section>
+        {{-- </div>
+    </section> --}}
 
     <!-- Services -->
 

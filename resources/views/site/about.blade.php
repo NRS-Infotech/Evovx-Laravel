@@ -58,11 +58,9 @@
         </div>
     </section>
 
-    <!--
-                    - #ABOUT
-                    -->
+    {{-- #ABOUT --}}
 
-    <section class="section about" aria-labelledby="about-label">
+    {{-- <section class="section about" aria-labelledby="about-label">
         <div class="container">
 
             <figure class="about-banner">
@@ -95,15 +93,10 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
 
 
-
-
-
-    <!--
-                    - #FEATURE
-                    -->
+    {{-- #FEATURE --}}
 
     <section class="feature" style="padding-bottom: 120px" aria-labelledby="feature-label">
         <div class="container">
