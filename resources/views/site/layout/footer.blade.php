@@ -97,9 +97,9 @@
 
         <ul class="footer-list">
 
-            <!-- <li>
-        <p class="h4 footer-list-title">Lorem Ipsum</p>
-      </li> -->
+            <li>
+                <p class="h4 footer-list-title">Our Info</p>
+            </li>
 
             <li>
                 <a href="address" class="footer-link">
@@ -110,21 +110,16 @@
             </li>
 
             <li>
-                <a href="mailto:info@email.com" class="footer-link">
+                <a href="mailto:info@evovx.com" class="footer-link">
                     <span style="display: flex; align-items: center;">
                         <ion-icon name="mail"></ion-icon> info@evovx.com
                     </span>
                 </a>
             </li>
             <li>
-                <a href="tel:001234567890" class="footer-link">
-                    <span style="display: flex; align-items: center;">
-                        <ion-icon name="call"></ion-icon> +974 44919000
-
-                    </span>
-                </a>
-            </li>
-
+                <a href="tel:+97444919000" class="contact-link"><span
+                        style="display: flex; align-items: center;"><ion-icon name="call"></ion-icon>
+                        +974-44919000</span></a>
         </ul>
 
 

@@ -40,30 +40,6 @@
 
                         </li>
 
-                        {{-- <li class="slider-item">
-
-                            <div class="hero-card">
-                                <figure class="img-holder" style="--width: 575; --height: 550;">
-                                    <img src="{{ asset('website/assets/images/hero-slide-2.jpg') }}" width="575" height="550"
-                                        alt="hero banner" class="img-cover">
-                                </figure>
-
-                                <button class="play-btn" aria-label="play ZabiSahi intro">
-                                    <ion-icon name="play" aria-hidden="true"></ion-icon>
-                                </button>
-                            </div>
-
-                        </li>
-
-                        <li class="slider-item">
-
-                            <figure class="img-holder" style="--width: 575; --height: 550;">
-                                <img src="{{ asset('website/assets/images/hero-slide-3.jpg') }}" width="575" height="550" alt=""
-                                    class="img-cover">
-                            </figure>
-
-                        </li> --}}
-
                     </ul>
                 </div>
 
@@ -81,61 +57,46 @@
     </section>
 
 
-
-    <section class="section service" staria-labelledby="service-label">
+    <section class="section service" aria-labelledby="service-label">
         <div class="container">
-
-
             <ul class="grid-list">
-
-
                 <li>
                     <div class="service-card">
-
                         <div class="card-icon">
                             <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
                         </div>
-
                         <h3 class="h4 card-title">Address</h3>
-
                         <p class="card-text">
-                            Al-Gharafa Zone (51), Al-Hidab St. No. (787), Bldg. No. (55),2nd Floor, Office No. 35, P.O. BOX
+                            Al-Gharafa Zone (51), Al-Hidab St. No. (787), Bldg. No. (55), 2nd Floor, Office No. 35, P.O. BOX
                             63678 Doha, Qatar
                         </p>
-
                     </div>
                 </li>
 
                 <li>
                     <div class="service-card">
-
                         <div class="card-icon">
                             <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
                         </div>
-
                         <h3 class="h4 card-title">Contact Number</h3>
-
+                        <br>
                         <p class="card-text">
                             <a href="tel:+97444919000" class="contact-link">+974-44919000</a>
                             <a href="tel:+97430000899" class="contact-link">+974 3000 0899</a>
                         </p>
-
                     </div>
                 </li>
 
                 <li>
                     <div class="service-card">
-
                         <div class="card-icon">
                             <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
                         </div>
-
                         <h3 class="h4 card-title">Email</h3>
-
+                        <br>
                         <p class="card-text">
-                            info@evovx.com
+                            <a href="mailto:info@evovx.com" class="contact-link">info@evovx.com</a>
                         </p>
-
                     </div>
                 </li>
             </ul>
@@ -154,25 +115,30 @@
                     @csrf
                     <div class="footer-list">
                         <p class="h4 footer-list-title">Name</p>
-                        <input type="text" name="name" placeholder="Enter your name" required class="input-field">
+                        <input type="text" name="name" placeholder="Enter your name" class="input-field">
+                        <div class="error-message" id="name-error"></div>
                     </div>
                     <div class="footer-list">
                         <p class="h4 footer-list-title">Phone</p>
                         <input type="tel" name="phone" placeholder="Enter your phone number" class="input-field">
+                        <div class="error-message" id="phone-error"></div>
                     </div>
                     <div class="footer-list">
                         <p class="h4 footer-list-title">Email</p>
-                        <input type="email" name="email" placeholder="Enter your email" required class="input-field">
+                        <input type="email" name="email" placeholder="Enter your email" class="input-field">
+                        <div class="error-message" id="email-error"></div>
                     </div>
                     <div class="footer-list">
                         <p class="h4 footer-list-title">Business</p>
-                        <input type="text" name="business" placeholder="Enter your business" required
-                            class="input-field">
+                        <input type="text" name="business" placeholder="Enter your business" class="input-field">
+                        <div class="error-message" id="business-error"></div>
                     </div>
                     <div class="footer-list">
                         <p class="h4 footer-list-title">Message</p>
-                        <textarea name="message" placeholder="Enter your message" required class="input-field" rows="4"></textarea>
+                        <textarea name="message" placeholder="Enter your message" class="input-field" rows="4"></textarea>
+                        <div class="error-message" id="message-error"></div>
                     </div>
+
                     <div class="justify-content-center">
                         <button type="submit" class="btn btn-outline submit">Submit</button>
                     </div>
@@ -210,15 +176,21 @@
                     $('#formMessages').html('<div class="alert alert-success">' + response
                         .message + '</div>');
                     $('#contactForm')[0].reset();
+                    $('.error-message').empty();
                 },
                 error: function(xhr) {
+                    $('.error-message').empty();
+
                     var errors = xhr.responseJSON.errors;
-                    var errorMessage = '<div class="alert alert-danger"><ul>';
                     $.each(errors, function(key, value) {
-                        errorMessage += '<li>' + value[0] + '</li>';
+                        var errorId = '#' + key + '-error';
+                        $(errorId).html('<div class="alert alert-danger">' + value[
+                            0] + '</div>');
+
+                        setTimeout(function() {
+                            $(errorId).empty();
+                        }, 3000);
                     });
-                    errorMessage += '</ul></div>';
-                    $('#formMessages').html(errorMessage);
                 }
             });
         });
