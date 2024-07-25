@@ -228,71 +228,15 @@
         </div>
     </section>
 
-    <!-- #STATS -->
-    {{-- <section class="section" style="color: white; font-size: 21px;" aria-label="our stats">
-        <div="container">
-
-        <ul class="stats-card has-bg-image"
-            style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">
-
-            <details style="margin-bottom: 3rem;">
-                <summary>Seasoned Professionals</summary>
-                <p>We Provide opportunities for continuous learning and Business growth. We solve challenging and interesting business problems and do projects that allow businesses to expand their horizons.</p>
-            </details>
-
-            <details style="margin-bottom: 3rem;">
-
-                <summary>Premier Support</summary>
-                <p>We provide personalised support with a dedicated team of skilled professionals who understand your business needs and goals.</p>
-            </details>
-
-            <details style="margin-bottom: 3rem;">
-
-                <summary>Business Solution</summary>
-                <p>Connect with us and our consultants effortlessly, fostering a strong professional community.</p>
-            </details>
-
-        </ul> --}}
-
-    <!-- <li>
-                      <p class="hero-text">
-                        <span class="span">Seasoned Professionals</span>
-
-                        <spna class="span">Seasoned Professionals</spna>
-                      </p>
-                    </li> -->
-
-    <!-- <li>
-                      <p class="card-text">
-                        <span class="span">Premier Support</span>
-
-                        <spna class="span">Receive personalized support with a dedicated account
-                           manager who understands your business needs and goals.</spna>
-                      </p>
-                    </li> -->
-
-    <!-- <li>
-                      <p class="card-text">
-                        <span class="span">Business Solution</span>
-
-                        <spna class="span">Connect with clients and other consultants effortlessly,
-                          fostering a strong professional community.</spna>
-                      </p>
-                    </li> -->
-
-    {{-- </div>
-    </section> --}}
-
-    <!-- Services -->
 
     <section class="service" style="padding-top: 120px;" aria-labelledby="service-label">
         <div class="container">
 
             <p class="section-subtitle" id="service-label">What We Do?</p>
 
-            <!-- <h2 class="h2 section-title">
+            {{-- <h2 class="h2 section-title">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  </h2> -->
+                  </h2> --}}
 
             <ul class="grid-list">
 
@@ -305,10 +249,10 @@
 
                         <h3 class="h4 card-title">Notary Attestation Services</h3>
 
-                        <!-- <p class="card-text">
-                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p> -->
+                        {{-- <p class="card-text">
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                            </p> --}}
 
                         <a href="{{ url('/notaryattestation') }}" class="btn-text">
                             <span class="span">Learn More</span>
@@ -328,10 +272,10 @@
 
                         <h3 class="h4 card-title">PRO Services</h3>
 
-                        <!-- <p class="card-text">
-                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p> -->
+                        {{-- <p class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p> --}}
 
                         <a href="{{ url('/proservices') }}" class="btn-text">
                             <span class="span">Learn More</span>
@@ -351,10 +295,10 @@
 
                         <h3 class="h4 card-title">Certificate Attestation Services</h3>
 
-                        <!-- <p class="card-text">
-                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p> -->
+                        {{-- <p class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p> --}}
 
                         <a href="{{ url('/certificateattestation') }}" class="btn-text">
                             <span class="span">Learn More</span>
@@ -374,10 +318,10 @@
 
                         <h3 class="h4 card-title">Government Relations Services</h3>
 
-                        <!-- <p class="card-text">
-                          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p> -->
+                        {{-- <p class="card-text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p> --}}
 
                         <a href="{{ url('/governmentservices') }}" class="btn-text">
                             <span class="span">Learn More</span>
@@ -396,10 +340,10 @@
 
                         <h3 class="h4 card-title">Legal Translation Services</h3>
 
-                        <!-- <p class="card-text">
+                        {{-- <p class="card-text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                          </p> -->
+                        </p> --}}
 
                         <a href="{{ url('/translationservices') }}" class="btn-text">
                             <span class="span">Learn More</span>
@@ -418,10 +362,10 @@
 
                         <h3 class="h4 card-title">Going Digital</h3>
 
-                        <!-- <p class="card-text">
+                        {{-- <p class="card-text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                          </p> -->
+                        </p> --}}
 
                         <a href="{{ url('/goingdigital') }}" class="btn-text">
                             <span class="span">Learn More</span>
@@ -440,10 +384,10 @@
 
                         <h3 class="h4 card-title">Management Consulting</h3>
 
-                        <!-- <p class="card-text">
+                        {{-- <p class="card-text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                          </p> -->
+                        </p> --}}
 
                         <a href="{{ url('/managementconsulting') }}" class="btn-text">
                             <span class="span">Learn More</span>
@@ -462,10 +406,10 @@
 
                         <h3 class="h4 card-title">Commercial Brokerage</h3>
 
-                        <!-- <p class="card-text">
+                        {{-- <p class="card-text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                          </p> -->
+                        </p> --}}
 
                         <a href="{{ url('/commercialbrokerage') }}" class="btn-text">
                             <span class="span">Learn More</span>
@@ -484,10 +428,10 @@
 
                         <h3 class="h4 card-title">Customized Gifts</h3>
 
-                        <!-- <p class="card-text">
+                        {{-- <p class="card-text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                          </p> -->
+                        </p> --}}
 
                         <a href="{{ url('/customizedgift') }}" class="btn-text">
                             <span class="span">Learn More</span>
@@ -506,10 +450,10 @@
 
                         <h3 class="h4 card-title">Event Management</h3>
 
-                        <!-- <p class="card-text">
+                        {{-- <p class="card-text">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                          </p> -->
+                        </p> --}}
 
                         <a href="{{ url('/eventmanagement') }}" class="btn-text">
                             <span class="span">Learn More</span>
