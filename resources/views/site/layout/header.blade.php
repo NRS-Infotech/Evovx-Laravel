@@ -39,7 +39,7 @@
     <header class="header" data-header>
         <div class="container">
 
-            <a href="" class="navbar-link">
+            <a href="{{ url('/') }}" class="navbar-link">
                 <img src="{{ asset('website/assets/logo-light.svg') }}" class="logo logo-light" style="width: 100px;">
                 <img src="{{ asset('website/assets/logo-dark.svg') }}" class="logo logo-dark" style="width: 100px;">
             </a>
@@ -47,7 +47,8 @@
             <nav class="navbar" data-navbar>
 
                 <div class="navbar-top">
-                    <a href="https://linktr.ee/zabisahi" class="navbar-link">Zabi Sahi</a>
+                    <a href="{{ url('/') }}" class="navbar-link">
+                        <img src="{{ asset('website/assets/logo-dark.svg') }}" style="width: 100px;">
                     </a>
 
                     <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
@@ -76,9 +77,10 @@
                 </ul>
 
                 <div class="wrapper">
-                    <a href="mailto:info@email.com" class="contact-link">info@email.com</a>
+                    <a href="mailto:info@email.com" class="contact-link">info@evovx.com</a>
 
-                    <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
+                    <a href="tel:+97444919000" class="contact-link">+974-44919000</a>
+                    <a href="tel:+97430000899" class="contact-link">+974 3000 0899</a>
                 </div>
 
                 <ul class="social-list">

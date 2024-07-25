@@ -112,7 +112,7 @@
             <li>
                 <a href="mailto:info@email.com" class="footer-link">
                     <span style="display: flex; align-items: center;">
-                        <ion-icon name="mail"></ion-icon>  info@evovx.com
+                        <ion-icon name="mail"></ion-icon> info@evovx.com
                     </span>
                 </a>
             </li>
@@ -120,7 +120,7 @@
                 <a href="tel:001234567890" class="footer-link">
                     <span style="display: flex; align-items: center;">
                         <ion-icon name="call"></ion-icon> +974 44919000
-                        
+
                     </span>
                 </a>
             </li>
@@ -153,15 +153,6 @@
 <!-- ionicon -->
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-<script>
-    document.querySelectorAll('[data-nav-toggler]').forEach(element => {
-        element.addEventListener('click', () => {
-            document.querySelector('[data-navbar]').classList.toggle('active');
-            document.querySelector('[data-overlay]').classList.toggle('active');
-        });
-    });
-</script>
 
 </body>
 

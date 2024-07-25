@@ -116,9 +116,8 @@
                         <h3 class="h4 card-title">Contact Number</h3>
 
                         <p class="card-text">
-                            +974 44919000 <br>
-                            +974 3000 0899
-
+                            <a href="tel:+97444919000" class="contact-link">+974-44919000</a>
+                            <a href="tel:+97430000899" class="contact-link">+974 3000 0899</a>
                         </p>
 
                     </div>
