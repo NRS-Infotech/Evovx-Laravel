@@ -4,24 +4,137 @@
 
 @section('website-main-section')
 
+    <style>
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            /* Full viewport height */
+            overflow: hidden;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            /* Ensure the content is on top */
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .hero-slider {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 1;
+            /* Slider behind the content */
+        }
+
+        .slider-inner {
+            width: 100%;
+            height: 100%;
+            clip-path: inset(5px 5px 5px 5px);
+        }
+
+        .slider-container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        .slider-item {
+            flex: 0 0 100%;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            /* Ensure content doesn’t overflow */
+        }
+
+        .slider-item figure {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .img-cover {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .slider-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            cursor: pointer;
+            z-index: 3;
+            visibility: hidden;
+            /* Hide the buttons */
+            width: 40px;
+            /* Adjust width and height if needed */
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .slider-btn.prev {
+            left: 10px;
+        }
+
+        .slider-btn.next {
+            right: 10px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 1200px) {
+            .hero-content {
+                padding: 1rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-content {
+                padding: 0.5rem;
+            }
+
+            .slider-btn {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-content {
+                padding: 0.5rem;
+            }
+
+            .slider-btn {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    </style>
+
     <section class="section hero has-bg-image" aria-label="home"
-        style="background-image: url('{{ asset('website/assets/images/Animated Shape.svg') }}')">
-        <div class="container">
-
-            <div class="hero-content">
+        style="background-image: url('{{ asset('website/assets/images/Animated Shape.svg') }}');">
+        <div class="hero-content-wrapper">
+            {{-- <div class="hero-content">
                 <h1 class="h1 hero-title">EVOVX Consultancy & Business Solution</h1>
-
-                {{-- <p class="hero-text">
-                    Evovx Consultancy and Business Solutions W.L.L. is a company that was founded
-                     in Qatar In 2024. It provides a wide range of services including Commercial 
-                     mediation, Management consulting, Commercial brokerage and Documents 
-                     Clearing, and other services. </p> --}}
 
                 <div class="btn-wrapper" style="margin-top: 3rem;">
                     <a href="{{ url('/about') }}" class="btn btn-primary">Explore Now</a>
                     <a href="{{ url('/contact') }}#contact-form" class="btn btn-outline">Contact Us</a>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="hero-slider" data-slider>
 
@@ -29,37 +142,20 @@
                     <ul class="slider-container" data-slider-container>
 
                         <li class="slider-item">
-                            <figure class="" style="--width: 575; --height: 550;">
-                                <img src="{{ asset('website/assets/images/home-slide-01.png') }}" width="575"
-                                    height="550" alt="" class="img-cover">
+                            <figure style="--width: 100vw; --height: 100vh;">
+                                <img src="{{ asset('website/assets/images/blog-1.jpg') }}" alt="" class="img-cover">
                             </figure>
                         </li>
 
                         <li class="slider-item">
-                            <figure class="" style="--width: 575; --height: 550;">
-                                <img src="{{ asset('website/assets/images/home-slide-02.png') }}" width="575"
-                                    height="550" alt="" class="img-cover">
+                            <figure style="--width: 100vw; --height: 100vh;">
+                                <img src="{{ asset('website/assets/images/blog-2.jpg') }}" alt="" class="img-cover">
                             </figure>
                         </li>
 
                         <li class="slider-item">
-                            <figure class="" style="--width: 575; --height: 550;">
-                                <img src="{{ asset('website/assets/images/home-slide-03.png') }}" width="575"
-                                    height="550" alt="" class="img-cover">
-                            </figure>
-                        </li>
-
-                        <li class="slider-item">
-                            <figure class="" style="--width: 575; --height: 550;">
-                                <img src="{{ asset('website/assets/images/home-slide-04.png') }}" width="575"
-                                    height="550" alt="" class="img-cover">
-                            </figure>
-                        </li>
-
-                        <li class="slider-item">
-                            <figure class="" style="--width: 575; --height: 550;">
-                                <img src="{{ asset('website/assets/images/home-slide-05.png') }}" width="575"
-                                    height="550" alt="" class="img-cover">
+                            <figure style="--width: 100vw; --height: 100vh;">
+                                <img src="{{ asset('website/assets/images/blog-3.jpg') }}" alt="" class="img-cover">
                             </figure>
                         </li>
 

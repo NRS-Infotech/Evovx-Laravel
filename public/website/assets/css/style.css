@@ -318,7 +318,8 @@ body.nav-active {
 }
 
 .header {
-  position: absolute;
+  background-color: var(--charcoal);
+  /* position: absolute; */
   top: 0;
   left: 0;
   width: 100%;
