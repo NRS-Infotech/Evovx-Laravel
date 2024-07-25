@@ -473,10 +473,7 @@
     <section class="section project" aria-labelledby="project-label">
         <div class="container">
 
-
-            <h2 class="h2 section-title">
-                What Our Users Says</h2>
-
+            <h2 class="h2 section-title">What Our Users Says</h2>
 
             <ul class="grid-list">
 
