@@ -600,7 +600,7 @@
     <section class="section project" aria-labelledby="project-label">
         <div class="container">
 
-            <h2 class="h2 section-title">What Our Users Say</h2>
+            <h2 class="h2 section-title">What Our Clients Say</h2>
 
             <ul class="grid-list">
 
@@ -608,22 +608,22 @@
                     <div class="project-card">
                         <div class="avatar-wrapper">
                             <div class="avatar-circle">
-                                <img src="{{ asset('website/assets/images/blog-1.jpg') }}" loading="lazy"
-                                    alt="User Avatar">
+                                <img src="https://www.gravatar.com/avatar/27205e5c51cb03f862138b22bcb5dc20?d=identicon&s=200"
+                                    loading="lazy" alt="User Avatar">
                             </div>
                         </div>
 
                         <div class="card-content">
                             <p class="card-text">
-                                “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
-                                building
-                                a community for a more focused and engaging experience. This is the platform for you.
+                                “Working with Evovx Consultancy Services has been a fantastic experience. Their team really
+                                understood our challenges and provided solutions that made a real difference. Our operations
+                                are now smoother and more efficient, and we couldn’t be happier with the results.”
                             </p>
 
                             <ul class="card-meta-list">
                                 <li class="card-meta-item">
                                     <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-                                    <span class="meta-text">Musharof Chy</span>
+                                    <span class="meta-text">Sophia Martinez</span>
                                 </li>
                             </ul>
                         </div>
@@ -634,22 +634,24 @@
                     <div class="project-card">
                         <div class="avatar-wrapper">
                             <div class="avatar-circle">
-                                <img src="{{ asset('website/assets/images/blog-1.jpg') }}" loading="lazy"
-                                    alt="User Avatar">
+                                <img src="https://www.gravatar.com/avatar/3e23e8160039594a33894f6564e1b134?d=identicon&s=200"
+                                    loading="lazy" alt="User Avatar">
                             </div>
                         </div>
 
                         <div class="card-content">
                             <p class="card-text">
-                                “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
-                                building
-                                a community for a more focused and engaging experience. This is the platform for you.
+                                “We’ve seen a huge improvement in our project outcomes since partnering with Evovx
+                                Consultancy.
+                                Their approach is innovative and they’re incredibly responsive to our needs. It’s clear
+                                they’re
+                                dedicated to our success, and it’s made a big impact on our productivity.”
                             </p>
 
                             <ul class="card-meta-list">
                                 <li class="card-meta-item">
                                     <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-                                    <span class="meta-text">Musharof Chy</span>
+                                    <span class="meta-text">James Anderson</span>
                                 </li>
                             </ul>
                         </div>
@@ -660,22 +662,23 @@
                     <div class="project-card">
                         <div class="avatar-wrapper">
                             <div class="avatar-circle">
-                                <img src="{{ asset('website/assets/images/blog-1.jpg') }}" loading="lazy"
-                                    alt="User Avatar">
+                                <img src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=identicon&s=200"
+                                    loading="lazy" alt="User Avatar">
                             </div>
                         </div>
 
                         <div class="card-content">
                             <p class="card-text">
-                                “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
-                                building
-                                a community for a more focused and engaging experience. This is the platform for you.
+                                “Evovx Consultancy Services exceeded our expectations. They took the time to understand our
+                                unique needs and delivered tailored solutions that truly worked for us. Their support has
+                                been
+                                invaluable, and we’re thrilled with the results.”
                             </p>
 
                             <ul class="card-meta-list">
                                 <li class="card-meta-item">
                                     <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-                                    <span class="meta-text">Musharof Chy</span>
+                                    <span class="meta-text">Emma Wilson</span>
                                 </li>
                             </ul>
                         </div>
