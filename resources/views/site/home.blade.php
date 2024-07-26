@@ -130,8 +130,7 @@
     </style>
 
 
-    <section class="has-bg-image" aria-label="home"
-        style="background-image: url('{{ asset('website/assets/images/Animated Shape.svg') }}');">
+    <section class="has-bg-image" aria-label="home">
         <div class="hero-content-wrapper">
             <div class="hero-slider" data-slider>
 
