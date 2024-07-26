@@ -82,9 +82,7 @@
             cursor: pointer;
             z-index: 3;
             visibility: visible;
-            /* Make the buttons visible */
             width: 40px;
-            /* Adjust width and height if needed */
             height: 40px;
             display: flex;
             align-items: center;
@@ -126,6 +124,53 @@
                 width: 25px;
                 height: 25px;
             }
+        }
+
+        /* Centering the project card */
+        .project-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* Center horizontally */
+            text-align: center;
+            /* Center text */
+            padding: 1rem;
+            /* Padding around the card content */
+            border: 1px solid #ddd;
+            /* Optional border for better visual separation */
+            border-radius: 8px;
+            /* Optional rounded corners */
+            background-color: #fff;
+            /* Optional background color */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            /* Optional shadow */
+        }
+
+        /* Wrapper to center the avatar circle */
+        .avatar-wrapper {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        /* Avatar circle styling */
+        .avatar-circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f0f0f0;
+            /* Optional background color */
+        }
+
+        .avatar-circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Ensures image covers the circle */
         }
     </style>
 
@@ -341,7 +386,7 @@
     <section class="service" style="padding-top: 120px;" aria-labelledby="service-label">
         <div class="container">
 
-            <p class="section-subtitle" id="service-label">What We Do?</p>
+            <h2 class="h2 section-title">What We Do?</h2>
 
             <ul class="grid-list">
 
@@ -550,24 +595,25 @@
         </div>
     </section>
 
+
     <!-- #PROJECT -->
     <section class="section project" aria-labelledby="project-label">
         <div class="container">
 
-            <h2 class="h2 section-title">What Our Users Says</h2>
+            <h2 class="h2 section-title">What Our Users Say</h2>
 
             <ul class="grid-list">
 
                 <li>
                     <div class="project-card">
-
-                        <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                            <img src="{{ asset('website/assets/images/blog-1.jpg') }}" width="560" height="350"
-                                loading="lazy" alt="Lorem Ipsum is simply dummy text" class="img-cover">
-                        </figure>
+                        <div class="avatar-wrapper">
+                            <div class="avatar-circle">
+                                <img src="{{ asset('website/assets/images/blog-1.jpg') }}" loading="lazy"
+                                    alt="User Avatar">
+                            </div>
+                        </div>
 
                         <div class="card-content">
-
                             <p class="card-text">
                                 “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
                                 building
@@ -575,57 +621,10 @@
                             </p>
 
                             <ul class="card-meta-list">
-
                                 <li class="card-meta-item">
                                     <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-
                                     <span class="meta-text">Musharof Chy</span>
                                 </li>
-
-                                {{-- <li class="card-meta-item">
-                                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                                    <time class="meta-text" datetime="2022-04-14">DD MM YYYY</time>
-                                </li> --}}
-
-
-                            </ul>
-
-                        </div>
-
-                    </div>
-                </li>
-
-                <li>
-                    <div class="project-card">
-
-                        <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                            <img src="{{ asset('website/assets/images/blog-2.jpg') }}" width="560" height="350"
-                                loading="lazy" alt="Lorem Ipsum is simply dummy text" class="img-cover">
-                        </figure>
-
-                        <div class="card-content">
-
-                            <p class="card-text">
-                                “Our community members consistently express their admiration for our platform, highlighting
-                                its
-                                intuitive design, clean interface, and distraction-free environment.
-                            </p>
-
-                            <ul class="card-meta-list">
-
-
-                                <li class="card-meta-item">
-                                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-
-                                    <span class="meta-text">Devid Weilium</span>
-                                </li>
-                                {{-- <li class="card-meta-item">
-                                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                                    <time class="meta-text" datetime="2022-03-29">DD MM YYYY</time>
-                                </li> --}}
-
                             </ul>
                         </div>
                     </div>
@@ -633,35 +632,53 @@
 
                 <li>
                     <div class="project-card">
-
-                        <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                            <img src="{{ asset('website/assets/images/blog-3.jpg') }}" width="560" height="350"
-                                loading="lazy" alt="Lorem Ipsum is simply dummy text" class="img-cover">
-                        </figure>
+                        <div class="avatar-wrapper">
+                            <div class="avatar-circle">
+                                <img src="{{ asset('website/assets/images/blog-1.jpg') }}" loading="lazy"
+                                    alt="User Avatar">
+                            </div>
+                        </div>
 
                         <div class="card-content">
-
                             <p class="card-text">
-                                “Our members have expressed their admiration for our platform, emphasizing its user-friendly
-                                interface and sleek design. They appreciate how it minimizes distractions.
+                                “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
+                                building
+                                a community for a more focused and engaging experience. This is the platform for you.
                             </p>
 
                             <ul class="card-meta-list">
                                 <li class="card-meta-item">
                                     <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-
-                                    <span class="meta-text">Lethium Frenci</span>
+                                    <span class="meta-text">Musharof Chy</span>
                                 </li>
-
-                                {{-- <li class="card-meta-item">
-                                    <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                                    <time class="meta-text" datetime="2022-02-26">DD MM YYYY</time>
-                                </li> --}}
                             </ul>
+                        </div>
+                    </div>
+                </li>
 
+                <li>
+                    <div class="project-card">
+                        <div class="avatar-wrapper">
+                            <div class="avatar-circle">
+                                <img src="{{ asset('website/assets/images/blog-1.jpg') }}" loading="lazy"
+                                    alt="User Avatar">
+                            </div>
                         </div>
 
+                        <div class="card-content">
+                            <p class="card-text">
+                                “Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
+                                building
+                                a community for a more focused and engaging experience. This is the platform for you.
+                            </p>
+
+                            <ul class="card-meta-list">
+                                <li class="card-meta-item">
+                                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                                    <span class="meta-text">Musharof Chy</span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </li>
 
