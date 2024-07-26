@@ -190,7 +190,7 @@
     </section>
 
     <!-- #ABOUT -->
-    <section class="section about" style="margin-top: 3rem;" aria-labelledby="about-label">
+    <section class="section about" aria-labelledby="about-label">
         <div class="container">
 
             <figure class="about-banner">
