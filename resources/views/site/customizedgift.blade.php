@@ -13,14 +13,15 @@
                 <h1 class="h1 hero-title">Customized Gifts</h1>
 
                 <p class="hero-text">
-                    We Provide Personalised gifts & arts made just for you. Uniqueness lies in our services & our work speaks quality.
+                    We Provide Personalised gifts & arts made just for you. Uniqueness lies in our services & our work
+                    speaks quality.
                 </p>
 
                 <div class="btn-wrapper">
 
                     {{-- <a href="{{url('/about')}}" class="btn btn-primary">Explore Now</a> --}}
 
-                    <a href="{{url('/contact')}}" class="btn btn-outline">Contact Us</a>
+                    <a href="{{ url('/contact') }}" class="btn btn-outline">Contact Us</a>
 
                 </div>
 
@@ -34,8 +35,8 @@
                         <li class="slider-item">
 
                             <figure class="img-holder" style="--width: 575; --height: 550;">
-                                <img src="{{ asset('website/assets/images/CorporateGifting.jpg') }}" width="575" height="550" alt=""
-                                    class="img-cover">
+                                <img src="{{ asset('website/assets/images/services/image-09.png') }}" width="575"
+                                    height="550" alt="" class="img-cover">
                             </figure>
 
                         </li>
@@ -54,36 +55,36 @@
 
         </div>
     </section>
-    
+
 
     <section class="section about" aria-labelledby="about-label">
         <div class="container">
 
             <figure class="about-banner">
-                <img src="{{ asset('website/assets/images/about-banner.png') }}" width="800" height="580" loading="lazy" alt="about banner"
-                    class="w-100">
+                <img src="{{ asset('website/assets/images/about-banner.png') }}" width="800" height="580"
+                    loading="lazy" alt="about banner" class="w-100">
             </figure>
 
             <div class="about-content">
 
                 <p class="section-subtitle" id="about-label"></p>
 
-                
-                <p >
-                    Customized gifts refer to items that are personalized or customized according 
-                    to the recipient's preferences, interests, or specific occasions. These gifts 
-                    are unique because they are tailored specifically for the individual, making 
+
+                <p>
+                    Customized gifts refer to items that are personalized or customized according
+                    to the recipient's preferences, interests, or specific occasions. These gifts
+                    are unique because they are tailored specifically for the individual, making
                     them thoughtful and meaningful.
-                    
-                  </p>
+
+                </p>
                 <p class="section-subtitle" id="about-label"></p>
 
-                <p >
-                    When choosing or creating customized gifts, consider the recipient's 
-                    preferences, interests, and the occasion to ensure the gift is both 
+                <p>
+                    When choosing or creating customized gifts, consider the recipient's
+                    preferences, interests, and the occasion to ensure the gift is both
                     thoughtful and meaningful.
-                    
-                  </p>
+
+                </p>
             </div>
 
         </div>

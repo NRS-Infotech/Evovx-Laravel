@@ -343,234 +343,206 @@
 
             <p class="section-subtitle" id="service-label">What We Do?</p>
 
-            {{-- <h2 class="h2 section-title">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  </h2> --}}
-
             <ul class="grid-list">
 
                 <li>
-                    <div class="service-card">
+                    <a href="{{ url('/notaryattestation') }}">
+                        <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                            <div class="card-image">
+                                <img src="{{ asset('website/assets/images/services/image-01.png') }}"
+                                    alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
+                            </div>
+
+                            <h3 class="h4 card-title">Notary Attestation Services</h3>
+
+                            <a href="{{ url('/notaryattestation') }}" class="btn-text">
+                                <span class="span">Learn More</span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+
                         </div>
-
-                        <h3 class="h4 card-title">Notary Attestation Services</h3>
-
-                        {{-- <p class="card-text">
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p> --}}
-
-                        <a href="{{ url('/notaryattestation') }}" class="btn-text">
-                            <span class="span">Learn More</span>
-
-                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                        </a>
-
-                    </div>
+                    </a>
                 </li>
 
                 <li>
-                    <div class="service-card">
+                    <a href="{{ url('/proservices') }}">
+                        <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="shield-outline" aria-hidden="true"></ion-icon>
+                            <div class="card-image">
+                                <img src="{{ asset('website/assets/images/services/image-02.png') }}"
+                                    alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
+                            </div>
+
+                            <h3 class="h4 card-title">PRO Services</h3>
+
+                            <a href="{{ url('/proservices') }}" class="btn-text">
+                                <span class="span">Learn More</span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+
                         </div>
-
-                        <h3 class="h4 card-title">PRO Services</h3>
-
-                        {{-- <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p> --}}
-
-                        <a href="{{ url('/proservices') }}" class="btn-text">
-                            <span class="span">Learn More</span>
-
-                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                        </a>
-
-                    </div>
+                    </a>
                 </li>
 
                 <li>
-                    <div class="service-card">
+                    <a href="{{ url('/certificateattestation') }}">
+                        <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                            <div class="card-image">
+                                <img src="{{ asset('website/assets/images/services/image-03.png') }}"
+                                    alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
+                            </div>
+
+                            <h3 class="h4 card-title">Certificate Attestation Services</h3>
+
+                            <a href="{{ url('/certificateattestation') }}" class="btn-text">
+                                <span class="span">Learn More</span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+
                         </div>
-
-                        <h3 class="h4 card-title">Certificate Attestation Services</h3>
-
-                        {{-- <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p> --}}
-
-                        <a href="{{ url('/certificateattestation') }}" class="btn-text">
-                            <span class="span">Learn More</span>
-
-                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                        </a>
-
-                    </div>
+                    </a>
                 </li>
 
                 <li>
-                    <div class="service-card">
+                    <a href="{{ url('/governmentservices') }}">
+                        <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="flag-outline" aria-hidden="true"></ion-icon>
+                            <div class="card-image">
+                                <img src="{{ asset('website/assets/images/services/image-04.png') }}"
+                                    alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
+                            </div>
+
+                            <h3 class="h4 card-title">Government Relations Services</h3>
+
+                            <a href="{{ url('/governmentservices') }}" class="btn-text">
+                                <span class="span">Learn More</span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+
                         </div>
-
-                        <h3 class="h4 card-title">Government Relations Services</h3>
-
-                        {{-- <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p> --}}
-
-                        <a href="{{ url('/governmentservices') }}" class="btn-text">
-                            <span class="span">Learn More</span>
-
-                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                        </a>
-
-                    </div>
+                    </a>
                 </li>
+
                 <li>
-                    <div class="service-card">
+                    <a href="{{ url('/translationservices') }}">
+                        <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="language-outline" aria-hidden="true"></ion-icon>
+                            <div class="card-image">
+                                <img src="{{ asset('website/assets/images/services/image-05.png') }}"
+                                    alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
+                            </div>
+
+                            <h3 class="h4 card-title">Legal Translation Services</h3>
+
+                            <a href="{{ url('/translationservices') }}" class="btn-text">
+                                <span class="span">Learn More</span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+
                         </div>
-
-                        <h3 class="h4 card-title">Legal Translation Services</h3>
-
-                        {{-- <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p> --}}
-
-                        <a href="{{ url('/translationservices') }}" class="btn-text">
-                            <span class="span">Learn More</span>
-
-                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                        </a>
-
-                    </div>
+                    </a>
                 </li>
+
                 <li>
-                    <div class="service-card">
+                    <a href="{{ url('/goingdigital') }}">
+                        <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                            <div class="card-image">
+                                <img src="{{ asset('website/assets/images/services/image-06.png') }}"
+                                    alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
+                            </div>
+
+                            <h3 class="h4 card-title">Going Digital</h3>
+
+                            <a href="{{ url('/goingdigital') }}" class="btn-text">
+                                <span class="span">Learn More</span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+
                         </div>
-
-                        <h3 class="h4 card-title">Going Digital</h3>
-
-                        {{-- <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p> --}}
-
-                        <a href="{{ url('/goingdigital') }}" class="btn-text">
-                            <span class="span">Learn More</span>
-
-                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                        </a>
-
-                    </div>
+                    </a>
                 </li>
+
                 <li>
-                    <div class="service-card">
+                    <a href="{{ url('/managementconsulting') }}">
+                        <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                            <div class="card-image">
+                                <img src="{{ asset('website/assets/images/services/image-07.png') }}"
+                                    alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
+                            </div>
+
+                            <h3 class="h4 card-title">Management Consulting</h3>
+
+                            <a href="{{ url('/managementconsulting') }}" class="btn-text">
+                                <span class="span">Learn More</span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+
                         </div>
-
-                        <h3 class="h4 card-title">Management Consulting</h3>
-
-                        {{-- <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p> --}}
-
-                        <a href="{{ url('/managementconsulting') }}" class="btn-text">
-                            <span class="span">Learn More</span>
-
-                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                        </a>
-
-                    </div>
+                    </a>
                 </li>
+
                 <li>
-                    <div class="service-card">
+                    <a href="{{ url('/commercialbrokerage') }}">
+                        <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="business-outline" aria-hidden="true"></ion-icon>
+                            <div class="card-image">
+                                <img src="{{ asset('website/assets/images/services/image-08.png') }}"
+                                    alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
+                            </div>
+
+                            <h3 class="h4 card-title">Commercial Brokerage</h3>
+
+                            <a href="{{ url('/commercialbrokerage') }}" class="btn-text">
+                                <span class="span">Learn More</span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+
                         </div>
-
-                        <h3 class="h4 card-title">Commercial Brokerage</h3>
-
-                        {{-- <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p> --}}
-
-                        <a href="{{ url('/commercialbrokerage') }}" class="btn-text">
-                            <span class="span">Learn More</span>
-
-                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                        </a>
-
-                    </div>
+                    </a>
                 </li>
+
                 <li>
-                    <div class="service-card">
+                    <a href="{{ url('/customizedgift') }}">
+                        <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="gift-outline" aria-hidden="true"></ion-icon>
+                            <div class="card-image">
+                                <img src="{{ asset('website/assets/images/services/image-09.png') }}"
+                                    alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
+                            </div>
+
+                            <h3 class="h4 card-title">Customized Gifts</h3>
+
+                            <a href="{{ url('/customizedgift') }}" class="btn-text">
+                                <span class="span">Learn More</span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+
                         </div>
-
-                        <h3 class="h4 card-title">Customized Gifts</h3>
-
-                        {{-- <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p> --}}
-
-                        <a href="{{ url('/customizedgift') }}" class="btn-text">
-                            <span class="span">Learn More</span>
-
-                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                        </a>
-
-                    </div>
+                    </a>
                 </li>
+
                 <li>
-                    <div class="service-card">
+                    <a href="{{ url('/eventmanagement') }}">
+                        <div class="service-card">
 
-                        <div class="card-icon">
-                            <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                            <div class="card-image">
+                                <img src="{{ asset('website/assets/images/services/image-10.png') }}"
+                                    alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
+                            </div>
+
+                            <h3 class="h4 card-title">Event Management</h3>
+
+                            <a href="{{ url('/eventmanagement') }}" class="btn-text">
+                                <span class="span">Learn More</span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+
                         </div>
-
-                        <h3 class="h4 card-title">Event Management</h3>
-
-                        {{-- <p class="card-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                        </p> --}}
-
-                        <a href="{{ url('/eventmanagement') }}" class="btn-text">
-                            <span class="span">Learn More</span>
-
-                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                        </a>
-
-                    </div>
+                    </a>
                 </li>
 
             </ul>
