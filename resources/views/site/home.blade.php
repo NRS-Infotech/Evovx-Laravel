@@ -8,8 +8,8 @@
         .hero {
             position: relative;
             width: 100%;
-            height: 100vh;
-            /* Full viewport height */
+            height: auto;
+            /* Remove fixed height */
             overflow: hidden;
         }
 
@@ -22,11 +22,11 @@
         }
 
         .hero-slider {
-            position: absolute;
-            top: 0;
-            left: 0;
+            position: relative;
+            /* Change to relative to fit content */
             width: 100%;
-            height: 100%;
+            height: auto;
+            /* Remove fixed height */
             overflow: hidden;
             z-index: 1;
             /* Slider behind the content */
@@ -34,14 +34,15 @@
 
         .slider-inner {
             width: 100%;
-            height: 100%;
-            clip-path: inset(5px 5px 5px 5px);
+            height: auto;
+            /* Adjust height to auto */
         }
 
         .slider-container {
             display: flex;
             width: 100%;
-            height: 100%;
+            height: auto;
+            /* Adjust height to auto */
             padding: 0;
             margin: 0;
             list-style: none;
@@ -50,7 +51,8 @@
         .slider-item {
             flex: 0 0 100%;
             width: 100%;
-            height: 100%;
+            height: auto;
+            /* Adjust height to auto */
             overflow: hidden;
             /* Ensure content doesn’t overflow */
         }
@@ -58,13 +60,16 @@
         .slider-item figure {
             margin: 0;
             width: 100%;
-            height: 100%;
+            height: auto;
+            /* Adjust height to auto */
         }
 
         .img-cover {
             width: 100%;
-            height: 100%;
-            object-fit: cover;
+            height: auto;
+            /* Adjust height to auto */
+            object-fit: contain;
+            /* Ensures the image contains the area */
         }
 
         .slider-btn {
@@ -76,8 +81,8 @@
             border: none;
             cursor: pointer;
             z-index: 3;
-            visibility: hidden;
-            /* Hide the buttons */
+            visibility: visible;
+            /* Make the buttons visible */
             width: 40px;
             /* Adjust width and height if needed */
             height: 40px;
@@ -124,18 +129,10 @@
         }
     </style>
 
-    <section class="section hero has-bg-image" aria-label="home"
+
+    <section class="has-bg-image" aria-label="home"
         style="background-image: url('{{ asset('website/assets/images/Animated Shape.svg') }}');">
         <div class="hero-content-wrapper">
-            {{-- <div class="hero-content">
-                <h1 class="h1 hero-title">EVOVX Consultancy & Business Solution</h1>
-
-                <div class="btn-wrapper" style="margin-top: 3rem;">
-                    <a href="{{ url('/about') }}" class="btn btn-primary">Explore Now</a>
-                    <a href="{{ url('/contact') }}#contact-form" class="btn btn-outline">Contact Us</a>
-                </div>
-            </div> --}}
-
             <div class="hero-slider" data-slider>
 
                 <div class="slider-inner">
@@ -143,31 +140,36 @@
 
                         <li class="slider-item">
                             <figure style="--width: 100vw; --height: 100vh;">
-                                <img src="{{ asset('website/assets/images/home/home-hero-01.jpeg') }}" alt="" class="img-cover">
+                                <img src="{{ asset('website/assets/images/home/home-hero-01.jpeg') }}" alt=""
+                                    class="img-cover">
                             </figure>
                         </li>
 
                         <li class="slider-item">
                             <figure style="--width: 100vw; --height: 100vh;">
-                                <img src="{{ asset('website/assets/images/home/home-hero-02.jpeg') }}" alt="" class="img-cover">
+                                <img src="{{ asset('website/assets/images/home/home-hero-02.jpeg') }}" alt=""
+                                    class="img-cover">
                             </figure>
                         </li>
 
                         <li class="slider-item">
                             <figure style="--width: 100vw; --height: 100vh;">
-                                <img src="{{ asset('website/assets/images/home/home-hero-03.jpeg') }}" alt="" class="img-cover">
+                                <img src="{{ asset('website/assets/images/home/home-hero-03.jpeg') }}" alt=""
+                                    class="img-cover">
                             </figure>
                         </li>
 
                         <li class="slider-item">
                             <figure style="--width: 100vw; --height: 100vh;">
-                                <img src="{{ asset('website/assets/images/home/home-hero-04.jpeg') }}" alt="" class="img-cover">
+                                <img src="{{ asset('website/assets/images/home/home-hero-04.jpeg') }}" alt=""
+                                    class="img-cover">
                             </figure>
                         </li>
 
                         <li class="slider-item">
                             <figure style="--width: 100vw; --height: 100vh;">
-                                <img src="{{ asset('website/assets/images/home/home-hero-05.jpeg') }}" alt="" class="img-cover">
+                                <img src="{{ asset('website/assets/images/home/home-hero-05.jpeg') }}" alt=""
+                                    class="img-cover">
                             </figure>
                         </li>
 
