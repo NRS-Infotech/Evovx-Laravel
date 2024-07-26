@@ -143,19 +143,31 @@
 
                         <li class="slider-item">
                             <figure style="--width: 100vw; --height: 100vh;">
-                                <img src="{{ asset('website/assets/images/blog-1.jpg') }}" alt="" class="img-cover">
+                                <img src="{{ asset('website/assets/images/home/home-hero-01.jpeg') }}" alt="" class="img-cover">
                             </figure>
                         </li>
 
                         <li class="slider-item">
                             <figure style="--width: 100vw; --height: 100vh;">
-                                <img src="{{ asset('website/assets/images/blog-2.jpg') }}" alt="" class="img-cover">
+                                <img src="{{ asset('website/assets/images/home/home-hero-02.jpeg') }}" alt="" class="img-cover">
                             </figure>
                         </li>
 
                         <li class="slider-item">
                             <figure style="--width: 100vw; --height: 100vh;">
-                                <img src="{{ asset('website/assets/images/blog-3.jpg') }}" alt="" class="img-cover">
+                                <img src="{{ asset('website/assets/images/home/home-hero-03.jpeg') }}" alt="" class="img-cover">
+                            </figure>
+                        </li>
+
+                        <li class="slider-item">
+                            <figure style="--width: 100vw; --height: 100vh;">
+                                <img src="{{ asset('website/assets/images/home/home-hero-04.jpeg') }}" alt="" class="img-cover">
+                            </figure>
+                        </li>
+
+                        <li class="slider-item">
+                            <figure style="--width: 100vw; --height: 100vh;">
+                                <img src="{{ asset('website/assets/images/home/home-hero-05.jpeg') }}" alt="" class="img-cover">
                             </figure>
                         </li>
 
