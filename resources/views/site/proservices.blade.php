@@ -64,11 +64,6 @@
     <section style="padding-top: 120PX;" aria-labelledby="about-label">
         <div class="container">
 
-            {{-- <figure class="about-banner">
-                <img src="{{ asset('website/assets/images/about-banner.png') }}" width="800" height="580"
-                    loading="lazy" alt="about banner" class="w-100">
-            </figure> --}}
-
             <div class="about-content">
                 <p>
                     The demand for Evovx's PRO services in Qatar has surged due to economic growth, creating numerous
@@ -99,11 +94,6 @@
 
     <section class="section" aria-labelledby="feature-label">
         <div class="container">
-
-            {{-- <figure class="feature-banner">
-                <img src="{{ asset('website/assets/images/feature-banner.png') }}" width="800" height="531"
-                    loading="lazy" alt="feature banner" class="w-100">
-            </figure> --}}
 
             <div class="feature-content">
 
