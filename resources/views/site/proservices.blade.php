@@ -94,16 +94,15 @@
             style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">
 
             <div style="margin-bottom: 3rem;">
-                <p>The time to obtain PRO services in Qatar varies based on your business type and the service needed. Key
-                    factors include document accuracy, service complexity, and government responsiveness. Typically, it
-                    takes a few days to a few weeks, but some services may require more time.</p>
+                <p>Best PRO Services in Qatar" encompasses all activities related to governmental documents and
+                    applications. Examples include company license renewals, labour and immigration processes, customs, visa
+                    services, attestation services, and legal translations.
+                </p>
             </div>
 
             <div style="margin-bottom: 3rem;">
-                <p>For the best PRO services in Qatar, choose Evovx. As a leading PRO service provider, we handle all
-                    business needs, including trade licenses, visas, work permits, labour cards, health cards, and more. Our
-                    team ensures efficiency and ease in obtaining government documents and approvals, and we are ready to
-                    assist you anytime, anywhere.</p>
+                <p>If you plan to start a business in Qatar or need to interact with government authorities for various
+                    purposes, hiring a professional PRO service provider will greatly benefit you.</p>
             </div>
 
         </ul>
