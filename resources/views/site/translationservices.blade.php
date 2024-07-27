@@ -13,9 +13,11 @@
                 <h1 class="h1 hero-title">Legal Translation Services</h1>
 
                 <p class="hero-text">
-                    Our consultancy involves converting written or spoken content from one language
-                    to another. These services are provided by professional translators who are
-                    proficient in multiple languages and have expertise in specific subject areas.
+                    Our consultancy offers professional translation services, converting written or spoken content from one
+                    language to another. Our translators are proficient in multiple languages and specialize in specific
+                    subject areas. We handle various documents, including legal contracts, technical manuals, marketing
+                    materials, and websites. These services facilitate communication and help businesses expand across
+                    linguistic barriers.
                 </p>
                 <p class="hero-text">
                     Translation services include various types of documents, such as legal contracts,

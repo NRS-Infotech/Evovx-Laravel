@@ -13,12 +13,10 @@
                 <h1 class="h1 hero-title">Certificate Attestation Services</h1>
 
                 <p class="hero-text">
-                    Evovx is an ISO-certified and internationally recognized company for certificate attestation in
-                    Qatar. We are an embassy-approved company providing assistance in the attestation process of all kinds
-                    of certificates for various purposes. The long 20 years of rich experience in the field glorifies the
-                    service that we have rendered to our customers. The transparent, customer-oriented, ethical, and
-                    reliable services provided at Evovx, make us the No.1 in Qatar in the field of certificate
-                    attestation services.
+                    Evovx is an ISO-certified and internationally recognised company for certificate attestation in Qatar.
+                    Embassy-approved, we assist in the attestation of all types of certificates for various purposes. With
+                    20 years of experience, we offer transparent, customer-oriented, ethical, and reliable services, making
+                    us the No. 1 certificate attestation provider in Qatar.
                 </p>
 
                 <div class="btn-wrapper">
@@ -51,92 +49,7 @@
         </div>
     </section>
 
-    <section class="section" style="margin-top: 3rem;" aria-labelledby="about-label">
-        <div class="container">
-            {{-- <figure class="about-banner">
-                <img src="{{ asset('website/assets/images/about-banner.png') }}" width="800" height="580"
-                    loading="lazy" alt="about banner" class="w-100">
-            </figure> --}}
-
-            <div class="about-content">
-                <p class="section-subtitle" id="about-label">Documents required for Qatar Attestation (Educational
-                    Certificate)</p>
-                <ul>
-                    <li>
-                        <div class="feature-card" style="margin-top: 3rem;">
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
-                            <span class="span">Original Document (depends upon the issuing country)</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="feature-card">
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
-                            <span class="span">Final Mark sheet / Transcripts</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="feature-card">
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
-                            <span class="span">Passport Copy of the candidate</span>
-                        </div>
-                    </li>
-                </ul>
-
-                <p class="section-subtitle" style="margin-top: 3rem;" id="about-label">Attestation Process for Qatar</p>
-                <ul>
-                    <li>
-                        <div class="feature-card" style="margin-top: 3rem;">
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
-                            <span class="span">Notary Attestation from home country</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="feature-card">
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
-                            <span class="span">Foreign Affairs Attestation from Home Country</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="feature-card">
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
-                            <span class="span">Embassy Attestation</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="feature-card">
-                            <div class="card-icon">
-                                <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                            </div>
-                            <span class="span">Ministry Of Foreign Affairs from Qatar</span>
-                        </div>
-                    </li>
-                </ul>
-
-                <p style="margin-top: 3rem;">
-                    We are the leading provider of different types of certificate attestation services in
-                    Qatar. As a global leader in Certificate attestation, we are branded as
-                    the best certificate attestation agency in Qatar or trustworthy brand for
-                    Certificate attestation services in Qatar. We can streamline the process
-                    and provide you with adequate assistance to get your certificates attested at low cost.
-                </p>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="" style="color: white; font-size: 21px;" aria-label="our stats">
+    {{-- <section class="" style="color: white; font-size: 21px;" aria-label="our stats">
         <ul class="stats-card has-bg-image"
             style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">
             <div>
@@ -146,10 +59,18 @@
                     every need.</p>
             </div>
         </ul>
-    </section>
+    </section> --}}
 
     <section class="section" aria-labelledby="about-label">
         <div class="container">
+
+            <div class="about-content">
+                <p>
+                    We are the leading provider of certificate attestation services in Qatar. As a global leader, we are
+                    branded as the best and most trustworthy certificate attestation agency in Qatar. We streamline the
+                    process and offer assistance to get your certificates attested at a low cost.
+                </p>
+            </div>
 
             {{-- <figure class="feature-banner">
                 <img src="{{ asset('website/assets/images/feature-banner.png') }}" width="800" height="580"
@@ -157,10 +78,6 @@
             </figure> --}}
 
             <div class="feature-content">
-                <p class="section-subtitle" id="about-label">Our long service in the field of certificate attestation
-                    proclaims our credibility.
-                    Our highly customer-focused & cost-effective approach has made us the top Document/Certificate
-                    Attestation provider in Qatar with a large customer base.</p>
 
                 <ul class="feature-list">
                     <li>
