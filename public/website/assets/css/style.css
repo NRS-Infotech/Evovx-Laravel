@@ -1118,7 +1118,7 @@ body.nav-active {
    */
 
   .about .container {
-    /* grid-template-columns: 1fr 0.7fr; */
+    grid-template-columns: 1fr 0.7fr;
     align-items: center;
   }
 
@@ -1129,7 +1129,7 @@ body.nav-active {
    */
 
   .feature .container {
-    /* grid-template-columns: 0.7fr 1fr; */
+    grid-template-columns: 0.7fr 1fr;
     align-items: center;
   }
 

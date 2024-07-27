@@ -60,7 +60,7 @@
         </div>
     </section>
 
-    <section class="section about" aria-labelledby="about-label">
+    <section class="section" aria-labelledby="about-label">
         <div class="container">
 
             {{-- <figure class="about-banner">

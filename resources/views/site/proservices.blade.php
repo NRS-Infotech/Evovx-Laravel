@@ -64,7 +64,7 @@
         </div>
     </section>
 
-    <section class="section about" style="margin-top: 3rem;" aria-labelledby="about-label">
+    <section class="section" style="margin-top: 3rem;" aria-labelledby="about-label">
         <div class="container">
 
             {{-- <figure class="about-banner">
@@ -112,7 +112,7 @@
     </section>
 
 
-    <section class="section feature" aria-labelledby="feature-label">
+    <section class="section" aria-labelledby="feature-label">
         <div class="container">
 
             {{-- <figure class="feature-banner">
