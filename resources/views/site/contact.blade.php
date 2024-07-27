@@ -3,6 +3,28 @@
 @section('website-page-title', 'Contact')
 
 @section('website-main-section')
+
+    <style>
+        .service-card {
+            background-color: color(srgb 5.49% 16.5% 27.8%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card-title{
+            color: white;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    
     <section class="section hero has-bg-image" aria-label="home"
         style="background-image: url('{{ asset('website/assets/images/Animated Shape.svg') }}')">
         <div class="container">

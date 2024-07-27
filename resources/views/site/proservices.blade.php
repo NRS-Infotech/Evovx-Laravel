@@ -74,23 +74,13 @@
 
             <div class="about-content">
                 <p>
-                    The demand for Evovx services in Qatar has witnessed a substantial rise
-                    due to the ever increasing growth in the economy and has created ample of
-                    opportunities in different domains in Qatar. Evovx promises a
-                    plethora of PRO services and guarantees 100% efficiency and quality with
-                    their work.
-
+                    The demand for Evovx's PRO services in Qatar has surged due to economic growth, creating numerous
+                    opportunities across various sectors. Evovx offers a range of PRO services with guaranteed efficiency
+                    and quality. Consulting a specialized agency like Evovx, known for its experienced staff and expertise
+                    in legal processes, can save time and provide proper guidance on legal matters. PRO services help with
+                    obtaining licenses, permits, visas, and approvals, handling all paperwork and formalities to save you
+                    time and reduce hassle.
                 </p>
-                <p style="margin-top: 3rem;">However, it is important to consult an agency regarding the PRO Services
-                    so that the legal processes are conducted without any hassles.Evovx is one such agency that fits the bill with their efficient staff,
-                    vast experience in dealing with various legal processes in Qatar. By
-                    consulting an experienced agency, clients will able to save their precious
-                    time and also will ensure proper guidance regarding the legal matters.</p>
-                <p style="margin-top: 3rem;">PRO services, or Public Relations Officer services, are the services that
-                    assist you with the documentation and
-                    procedures required for obtaining various licenses, permits, visas, and approvals from the government.
-                    PRO services can save you time, money, and hassle by handling all the
-                    paperwork and formalities on your behalf.</p>
             </div>
 
         </div>
@@ -103,38 +93,18 @@
         <ul class="stats-card has-bg-image"
             style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">
 
-            <details style="margin-bottom: 3rem;">
-                <summary>How Much Time Does It Take to Get PRO Services in Qatar?</summary>
-                <p>The length of time it takes to obtain PRO services in Qatar varies depending on the nature and type of
-                    business you have and the service you require. However, some common
-                    factors that may have an impact over time include:</p>
+            <div style="margin-bottom: 3rem;">
+                <p>The time to obtain PRO services in Qatar varies based on your business type and the service needed. Key
+                    factors include document accuracy, service complexity, and government responsiveness. Typically, it
+                    takes a few days to a few weeks, but some services may require more time.</p>
+            </div>
 
-                <li style="list-style-type:square;;">
-                    The accessibility and accuracy of the documents and information.
-                </li>
-                <li style="list-style-type:square;">
-                    The complexity and urgency of the service.
-                </li>
-                <li style="list-style-type:square;">
-                    The effectiveness and responsiveness of the governmental authorities.
-                </li>
-
-                <p>Usually, it may take anywhere from a few days to a few weeks to get
-                    PRO services in Qatar. However, some services may take longer than
-                    others depending on the above factors.</p>
-            </details>
-
-            <details style="margin-bottom: 3rem;">
-
-                <summary>Why Choose Us as Your PRO Service Provider in Qatar?</summary>
-                <p>If you are looking for the best PRO service provider in Qatar, look no further
-                    than us. We at Evovx are a leading PRO service company in Qatar that
-                    offers a wide range of PRO services for all types of businesses.
-                    Whether you need to obtain a trade license, a visa, a work permit, a
-                    labor card, a health card, or any other document or approval
-                    from the government, we can handle it for you with ease and efficiency. We are ready to serve you
-                    anytime, anywhere.</p>
-            </details>
+            <div style="margin-bottom: 3rem;">
+                <p>For the best PRO services in Qatar, choose Evovx. As a leading PRO service provider, we handle all
+                    business needs, including trade licenses, visas, work permits, labour cards, health cards, and more. Our
+                    team ensures efficiency and ease in obtaining government documents and approvals, and we are ready to
+                    assist you anytime, anywhere.</p>
+            </div>
 
         </ul>
 
