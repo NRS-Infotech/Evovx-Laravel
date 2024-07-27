@@ -67,10 +67,10 @@
     <section class="section about" style="margin-top: 3rem;" aria-labelledby="about-label">
         <div class="container">
 
-            <figure class="about-banner">
+            {{-- <figure class="about-banner">
                 <img src="{{ asset('website/assets/images/about-banner.png') }}" width="800" height="580"
                     loading="lazy" alt="about banner" class="w-100">
-            </figure>
+            </figure> --}}
 
             <div class="about-content">
                 <p>
@@ -145,10 +145,10 @@
     <section class="section feature" aria-labelledby="feature-label">
         <div class="container">
 
-            <figure class="feature-banner">
+            {{-- <figure class="feature-banner">
                 <img src="{{ asset('website/assets/images/feature-banner.png') }}" width="800" height="531"
                     loading="lazy" alt="feature banner" class="w-100">
-            </figure>
+            </figure> --}}
 
             <div class="feature-content">
 
@@ -283,7 +283,7 @@
                             </span>
                         </div>
                     </li>
-                    <li>
+                    {{-- <li>
                         <div class="feature-card">
 
                             <div class="card-icon">
@@ -294,8 +294,8 @@
                                 Assistance for ICV Certifications
                             </span>
                         </div>
-                    </li>
-                    <li>
+                    </li> --}}
+                    {{-- <li>
                         <div class="feature-card">
 
                             <div class="card-icon">
@@ -306,8 +306,8 @@
                                 Assistance for government and semi government works
                             </span>
                         </div>
-                    </li>
-                    <li>
+                    </li> --}}
+                    {{-- <li>
                         <div class="feature-card">
 
                             <div class="card-icon">
@@ -318,8 +318,8 @@
                                 Attestation of Import/Export/Company Licenses
                             </span>
                         </div>
-                    </li>
-                    <li>
+                    </li> --}}
+                    {{-- <li>
                         <div class="feature-card">
 
                             <div class="card-icon">
@@ -330,8 +330,8 @@
                                 Assistance for Embassy/Foreign Affairs attestation services
                             </span>
                         </div>
-                    </li>
-                    <li>
+                    </li> --}}
+                    {{-- <li>
                         <div class="feature-card">
 
                             <div class="card-icon">
@@ -342,8 +342,8 @@
                                 Assistance for attestation from India, UK, USA and Canada
                             </span>
                         </div>
-                    </li>
-                    <li>
+                    </li> --}}
+                    {{-- <li>
                         <div class="feature-card">
 
                             <div class="card-icon">
@@ -354,8 +354,8 @@
                                 Assistance for Certificate attestation services
                             </span>
                         </div>
-                    </li>
-                    <li>
+                    </li> --}}
+                    {{-- <li>
                         <div class="feature-card">
 
                             <div class="card-icon">
@@ -366,7 +366,7 @@
                                 Assistance for Legal Translation services
                             </span>
                         </div>
-                    </li>
+                    </li> --}}
                 </ul>
 
             </div>

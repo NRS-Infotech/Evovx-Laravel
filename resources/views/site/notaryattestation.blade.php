@@ -63,13 +63,12 @@
     <section class="section about" aria-labelledby="about-label">
         <div class="container">
 
-            <figure class="about-banner">
+            {{-- <figure class="about-banner">
                 <img src="{{ asset('website/assets/images/about-banner.png') }}" width="800" height="580"
                     loading="lazy" alt="about banner" class="w-100">
-            </figure>
+            </figure> --}}
 
             <div class="about-content">
-
 
                 <p>
                     Notarizing your certificate is a powerful risk management tool to prevent
