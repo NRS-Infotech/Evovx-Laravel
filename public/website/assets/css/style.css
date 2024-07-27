@@ -764,9 +764,9 @@ body.nav-active {
   #PROJECT
 \*-----------------------------------*/
 
-.project {
-  /* background-color: var(--cultured); */
-}
+/* .project {
+  background-color: var(--cultured);
+} */
 
 .project :is(.section-subtitle, .section-title) {
   text-align: center;
