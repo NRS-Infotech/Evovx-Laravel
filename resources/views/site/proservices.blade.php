@@ -61,7 +61,7 @@
         </div>
     </section>
 
-    <section class="section" style="margin-top: 3rem;" aria-labelledby="about-label">
+    <section style="padding-top: 120PX;" aria-labelledby="about-label">
         <div class="container">
 
             {{-- <figure class="about-banner">
@@ -80,29 +80,18 @@
                 </p>
             </div>
 
-        </div>
-    </section>
-
-
-    <section class="stats" style="color: white; font-size: 21px;" aria-label="our stats">
-        <div ="container">
-
-        <ul class="stats-card has-bg-image"
-            style="background-image: url('{{ asset('website/assets/images/Stock Chart.svg') }}')">
-
-            <div style="margin-bottom: 3rem;">
+            <div class="about-content" style="padding-top: 3REM;">
                 <p>Best PRO Services in Qatar" encompasses all activities related to governmental documents and
                     applications. Examples include company license renewals, labour and immigration processes, customs, visa
                     services, attestation services, and legal translations.
                 </p>
             </div>
 
-            <div style="margin-bottom: 3rem;">
+            <div class="about-content" style="padding-top: 3REM;">
                 <p>If you plan to start a business in Qatar or need to interact with government authorities for various
-                    purposes, hiring a professional PRO service provider will greatly benefit you.</p>
+                    purposes, hiring a professional PRO service provider will greatly benefit you.
+                </p>
             </div>
-
-        </ul>
 
         </div>
     </section>
