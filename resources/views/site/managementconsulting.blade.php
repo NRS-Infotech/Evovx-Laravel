@@ -54,13 +54,8 @@
 
 
 
-    <section class="section about" aria-labelledby="about-label">
+    <section class="section" aria-labelledby="about-label">
         <div class="container">
-
-            <figure class="about-banner">
-                <img src="{{ asset('website/assets/images/about-banner.png') }}" width="800" height="580"
-                    loading="lazy" alt="about banner" class="w-100">
-            </figure>
 
             <div class="about-content">
                 <p>
