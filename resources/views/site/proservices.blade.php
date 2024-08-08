@@ -64,22 +64,22 @@
     <section class="section service" aria-labelledby="service-label">
         <div class="container">
 
-            <h2 class="h2 section-title">What We Do?</h2>
+            <h2 class="h2 section-title">PRO Services</h2>
 
             <ul class="grid-list">
 
                 <li>
-                    <a href="{{ url('/managementconsulting') }}">
+                    <a href="{{ url('/notaryattestation') }}">
                         <div class="service-card">
 
                             <div class="card-image">
-                                <img src="{{ asset('website/assets/images/services/image-07.png') }}"
+                                <img src="{{ asset('website/assets/images/services/image-01.png') }}"
                                     alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
                             </div>
 
-                            <h3 class="h4 card-title">Management Consulting</h3>
+                            <h3 class="h4 card-title">Notary Attestation Services</h3>
 
-                            <a href="{{ url('/managementconsulting') }}" class="btn-text">
+                            <a href="{{ url('/notaryattestation') }}" class="btn-text">
                                 <span class="span">Learn More</span>
                                 <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                             </a>
@@ -89,17 +89,57 @@
                 </li>
 
                 <li>
-                    <a href="{{ url('/commercialbrokerage') }}">
+                    <a href="{{ url('/certificateattestation') }}">
                         <div class="service-card">
 
                             <div class="card-image">
-                                <img src="{{ asset('website/assets/images/services/image-08.png') }}"
+                                <img src="{{ asset('website/assets/images/services/image-03.png') }}"
                                     alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
                             </div>
 
-                            <h3 class="h4 card-title">Commercial Brokerage</h3>
+                            <h3 class="h4 card-title">Certificate Attestation Services</h3>
 
-                            <a href="{{ url('/commercialbrokerage') }}" class="btn-text">
+                            <a href="{{ url('/certificateattestation') }}" class="btn-text">
+                                <span class="span">Learn More</span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{ url('/governmentservices') }}">
+                        <div class="service-card">
+
+                            <div class="card-image">
+                                <img src="{{ asset('website/assets/images/services/image-04.png') }}"
+                                    alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
+                            </div>
+
+                            <h3 class="h4 card-title">Government Relations Services</h3>
+
+                            <a href="{{ url('/governmentservices') }}" class="btn-text">
+                                <span class="span">Learn More</span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{ url('/translationservices') }}">
+                        <div class="service-card">
+
+                            <div class="card-image">
+                                <img src="{{ asset('website/assets/images/services/image-05.png') }}"
+                                    alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
+                            </div>
+
+                            <h3 class="h4 card-title">Legal Translation Services</h3>
+
+                            <a href="{{ url('/translationservices') }}" class="btn-text">
                                 <span class="span">Learn More</span>
                                 <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                             </a>
