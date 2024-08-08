@@ -10,7 +10,7 @@
 
             <div class="hero-content">
 
-                <h1 class="h1 hero-title">Notary Attestation Services</h1>
+                <h1 class="h1 hero-title">Consultancy Service</h1>
 
                 <p class="hero-text">
                     Our consultancy provides professionals or firms that provide expertise and advice to organizations to
@@ -36,7 +36,7 @@
                         <li class="slider-item">
 
                             <figure class="img-holder" style="--width: 575; --height: 550;">
-                                <img src="{{ asset('website/assets/images/services/image-01.png') }}" width="575"
+                                <img src="{{ asset('website/assets/images/services/image-07.png') }}" width="575"
                                     height="550" alt="" class="img-cover">
                             </figure>
 
