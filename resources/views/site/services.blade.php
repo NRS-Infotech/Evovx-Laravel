@@ -71,7 +71,7 @@
                         <div class="service-card">
 
                             <div class="card-image">
-                                <img src="{{ asset('website/assets/images/services/image-01.png') }}"
+                                <img src="{{ asset('website/assets/images/services/image-07.png') }}"
                                     alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
                             </div>
 

@@ -13,16 +13,14 @@
                 <h1 class="h1 hero-title">Notary Attestation Services</h1>
 
                 <p class="hero-text">
-                    Getting a certificate notarized makes it a legally valid authenticated
-                    document. And it is an important milestone to get your immigration process
-                    cleared before moving to any foreign country. Evovx will assist you to get your
-                    Notary certificate attestation in Qatar.
+                    Our consultancy provides professionals or firms that provide expertise and advice to organizations to
+                    help them improve their performance, efficiency, and overall effectiveness.
                 </p>
-                <p class="hero-text">
+                {{-- <p class="hero-text">
                     Each country follows different rules for notary public services, in the
                     same way, Qatar also follows many rules for Notary public services in
                     Qatar.
-                </p>
+                </p> --}}
 
                 <div class="btn-wrapper">
                     <a href="{{ url('/contact') }}" class="btn btn-outline">Contact Us</a>
