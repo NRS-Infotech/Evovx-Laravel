@@ -61,7 +61,59 @@
         </div>
     </section>
 
-    <section style="padding-top: 120PX;" aria-labelledby="about-label">
+    <section class="section service" aria-labelledby="service-label">
+        <div class="container">
+
+            <h2 class="h2 section-title">What We Do?</h2>
+
+            <ul class="grid-list">
+
+                <li>
+                    <a href="{{ url('/managementconsulting') }}">
+                        <div class="service-card">
+
+                            <div class="card-image">
+                                <img src="{{ asset('website/assets/images/services/image-07.png') }}"
+                                    alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
+                            </div>
+
+                            <h3 class="h4 card-title">Management Consulting</h3>
+
+                            <a href="{{ url('/managementconsulting') }}" class="btn-text">
+                                <span class="span">Learn More</span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{ url('/commercialbrokerage') }}">
+                        <div class="service-card">
+
+                            <div class="card-image">
+                                <img src="{{ asset('website/assets/images/services/image-08.png') }}"
+                                    alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
+                            </div>
+
+                            <h3 class="h4 card-title">Commercial Brokerage</h3>
+
+                            <a href="{{ url('/commercialbrokerage') }}" class="btn-text">
+                                <span class="span">Learn More</span>
+                                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                            </a>
+
+                        </div>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </section>
+
+    {{-- <section style="padding-top: 120PX;" aria-labelledby="about-label">
         <div class="container">
 
             <div class="about-content">
@@ -89,10 +141,10 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
 
 
-    <section class="section" aria-labelledby="feature-label">
+    {{-- <section class="section" aria-labelledby="feature-label">
         <div class="container">
 
             <div class="feature-content">
@@ -185,9 +237,8 @@
                                 Issuance/Renewal of WLL License
                             </span>
                         </div>
-
-
                     </li>
+
                     <li>
                         <div class="feature-card">
 
@@ -199,9 +250,8 @@
                                 Assistance for Trademark/Production Registration
                             </span>
                         </div>
-
-
                     </li>
+
                     <li>
                         <div class="feature-card">
 
@@ -213,12 +263,10 @@
                                 Changing Trade Name/Appointment of Manager
                             </span>
                         </div>
-
-
                     </li>
+
                     <li>
                         <div class="feature-card">
-
                             <div class="card-icon">
                                 <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
                             </div>
@@ -233,6 +281,6 @@
             </div>
 
         </div>
-    </section>
+    </section> --}}
 
 @endsection

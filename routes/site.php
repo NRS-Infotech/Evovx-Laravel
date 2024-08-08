@@ -8,6 +8,7 @@ Route::get('/', [BasicController::class, 'home'])->name('website.home');
 Route::get('/about', [BasicController::class, 'about'])->name('website.about');
 Route::get('/services', [BasicController::class, 'services'])->name('website.services');
 Route::get('/contact', [BasicController::class, 'contact'])->name('website.contact');
+Route::get('/consultancyservice', [BasicController::class, 'consultancyservice'])->name('website.consultancyservice');
 Route::get('/proservices', [BasicController::class, 'proservices'])->name('website.proservices');
 Route::get('/governmentservices', [BasicController::class, 'governmentservices'])->name('website.governmentservices');
 Route::get('/translationservices', [BasicController::class, 'translationservices'])->name('website.translationservices');
