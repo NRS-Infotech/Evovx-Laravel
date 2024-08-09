@@ -238,7 +238,7 @@
         <div class="container">
 
             <figure class="about-banner">
-                <img src="{{ asset('website/assets/images/hero-slide-2.jpg') }}" width="575" height="550"
+                <img src="{{ asset('website/assets/images/hero-slide-2.png') }}" width="575" height="550"
                     alt="hero banner" class="img-cover">
             </figure>
 
