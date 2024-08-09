@@ -184,14 +184,14 @@
 
                         <li class="slider-item">
                             <figure style="--width: 100vw; --height: 100vh;">
-                                <img src="{{ asset('website/assets/images/home/hero-01.jpeg') }}" alt=""
+                                <img src="{{ asset('website/assets/images/home/hero-01.jpg') }}" alt=""
                                     class="img-cover">
                             </figure>
                         </li>
 
                         <li class="slider-item">
                             <figure style="--width: 100vw; --height: 100vh;">
-                                <img src="{{ asset('website/assets/images/home/hero-02.webp') }}" alt=""
+                                <img src="{{ asset('website/assets/images/home/hero-02.jpeg') }}" alt=""
                                     class="img-cover">
                             </figure>
                         </li>
