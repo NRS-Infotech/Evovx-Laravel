@@ -10,7 +10,7 @@
 
             <div class="hero-content">
 
-                <h1 class="h1 hero-title">Going Digital</h1>
+                <h1 class="h1 hero-title">Go Digital</h1>
 
                 <p class="hero-text">
                     Document imaging and scanning can be time-consuming for an organization. By outsourcing to Evovx, you
