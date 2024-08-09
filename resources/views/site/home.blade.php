@@ -630,22 +630,20 @@
                     <div class="project-card">
                         <div class="avatar-wrapper">
                             <div class="avatar-circle">
-                                <img src="https://www.gravatar.com/avatar/27205e5c51cb03f862138b22bcb5dc20?d=identicon&s=200"
+                                <img src="https://www.gravatar.com/avatar/2d8cb6a00d4e9f2f3e076e7e65cb1847?d=identicon&s=200"
                                     loading="lazy" alt="User Avatar">
                             </div>
                         </div>
 
                         <div class="card-content">
                             <p class="card-text">
-                                “Working with Evovx Consultancy Services has been a fantastic experience. Their team really
-                                understood our challenges and provided solutions that made a real difference. Our operations
-                                are now smoother and more efficient, and we couldn’t be happier with the results.”
+                                “Evovx helped us streamline operations, making a significant difference in efficiency.”
                             </p>
 
                             <ul class="card-meta-list">
                                 <li class="card-meta-item">
                                     <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-                                    <span class="meta-text">Sophia Martinez</span>
+                                    <span class="meta-text">Liam Johnson</span>
                                 </li>
                             </ul>
                         </div>
@@ -656,24 +654,20 @@
                     <div class="project-card">
                         <div class="avatar-wrapper">
                             <div class="avatar-circle">
-                                <img src="https://www.gravatar.com/avatar/3e23e8160039594a33894f6564e1b134?d=identicon&s=200"
+                                <img src="https://www.gravatar.com/avatar/b6d767d2f8ed5d21a44b0e5886680cb9?d=identicon&s=200"
                                     loading="lazy" alt="User Avatar">
                             </div>
                         </div>
 
                         <div class="card-content">
                             <p class="card-text">
-                                “We’ve seen a huge improvement in our project outcomes since partnering with Evovx
-                                Consultancy.
-                                Their approach is innovative and they’re incredibly responsive to our needs. It’s clear
-                                they’re
-                                dedicated to our success, and it’s made a big impact on our productivity.”
+                                “Partnering with Evovx brought innovative approaches and improved project outcomes.”
                             </p>
 
                             <ul class="card-meta-list">
                                 <li class="card-meta-item">
                                     <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-                                    <span class="meta-text">James Anderson</span>
+                                    <span class="meta-text">Noah Brown</span>
                                 </li>
                             </ul>
                         </div>
@@ -684,23 +678,92 @@
                     <div class="project-card">
                         <div class="avatar-wrapper">
                             <div class="avatar-circle">
-                                <img src="https://www.gravatar.com/avatar/00000000000000000000000000000000?d=identicon&s=200"
+                                <img src="https://www.gravatar.com/avatar/70efdf2ec9b086079795c442636b55fb?d=identicon&s=200"
                                     loading="lazy" alt="User Avatar">
                             </div>
                         </div>
 
                         <div class="card-content">
                             <p class="card-text">
-                                “Evovx Consultancy Services exceeded our expectations. They took the time to understand our
-                                unique needs and delivered tailored solutions that truly worked for us. Their support has
-                                been
-                                invaluable, and we’re thrilled with the results.”
+                                “Evovx delivered tailored solutions that exceeded our expectations.”
                             </p>
 
                             <ul class="card-meta-list">
                                 <li class="card-meta-item">
                                     <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-                                    <span class="meta-text">Emma Wilson</span>
+                                    <span class="meta-text">Olivia Smith</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="project-card">
+                        <div class="avatar-wrapper">
+                            <div class="avatar-circle">
+                                <img src="https://www.gravatar.com/avatar/9b8619251a19057cff70779273e95aa6?d=identicon&s=200"
+                                    loading="lazy" alt="User Avatar">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <p class="card-text">
+                                “Evovx's expertise brought noticeable improvements to our business processes.”
+                            </p>
+
+                            <ul class="card-meta-list">
+                                <li class="card-meta-item">
+                                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                                    <span class="meta-text">William Davis</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="project-card">
+                        <div class="avatar-wrapper">
+                            <div class="avatar-circle">
+                                <img src="https://www.gravatar.com/avatar/7b8b965ad4bca0e41ab51de7b31363a1?d=identicon&s=200"
+                                    loading="lazy" alt="User Avatar">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <p class="card-text">
+                                “Thanks to Evovx, our team is more productive and efficient than ever.”
+                            </p>
+
+                            <ul class="card-meta-list">
+                                <li class="card-meta-item">
+                                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                                    <span class="meta-text">Isabella Martinez</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="project-card">
+                        <div class="avatar-wrapper">
+                            <div class="avatar-circle">
+                                <img src="https://www.gravatar.com/avatar/eccbc87e4b5ce2fe28308fd9f2a7baf3?d=identicon&s=200"
+                                    loading="lazy" alt="User Avatar">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <p class="card-text">
+                                “Evovx's solutions were exactly what we needed to overcome our challenges.”
+                            </p>
+
+                            <ul class="card-meta-list">
+                                <li class="card-meta-item">
+                                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                                    <span class="meta-text">Ethan Wilson</span>
                                 </li>
                             </ul>
                         </div>
