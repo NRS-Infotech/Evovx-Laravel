@@ -115,7 +115,7 @@
                                     alt="Corporate Gifting" style="width: 100%; border-radius: var(--radius-6);">
                             </div>
 
-                            <h3 class="h4 card-title">Going Digital</h3>
+                            <h3 class="h4 card-title">Go Digital</h3>
 
                             <a href="{{ url('/goingdigital') }}" class="btn-text">
                                 <span class="span">Learn More</span>
