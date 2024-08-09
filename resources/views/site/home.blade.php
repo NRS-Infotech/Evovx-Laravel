@@ -212,7 +212,7 @@
 
                         <li class="slider-item">
                             <figure style="--width: 100vw; --height: 100vh;">
-                                <img src="{{ asset('website/assets/images/home/hero-05.webp') }}" alt=""
+                                <img src="{{ asset('website/assets/images/home/hero-05.png') }}" alt=""
                                     class="img-cover">
                             </figure>
                         </li>
